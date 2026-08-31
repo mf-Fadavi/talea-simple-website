@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "Talea — Everything in China. One partner.",
+    "description": "Sourcing, quality control, shipping and warehousing out of China — handled by one accountable team on the ground."
+  },
+  "nav": {
+    "services": "Services",
+    "who": "Who we are",
+    "process": "How it begins",
+    "contact": "Contact",
+    "menu": "Menu"
+  },
+  "common": {
+    "startSourcing": "Start sourcing"
+  },
+  "hero": {
+    "titleLine1": "Everything in China.",
+    "titleAccent": "One partner.",
+    "subtitle": "Sourcing, quality control, shipping and warehousing — handled by one team on the ground.",
+    "primaryCta": "Start sourcing",
+    "secondaryCta": "See how it works",
+    "badge1": "Team on the ground in China",
+    "badge2": "One point of contact"
+  },
+  "process": {
+    "eyebrow": "The process",
+    "heading": "Where does it begin?",
+    "subtitleWide": "Seven steps between a thought and a pallet in your warehouse. You are told where you are at every one of them.",
+    "subtitleNarrow": "Seven steps between a thought and a pallet in your warehouse.",
+    "steps": [
+      {
+        "title": "Everything begins with an idea",
+        "body": "A product, a market, a hunch. You tell us what you want to sell and who you sell it to."
+      },
+      {
+        "title": "We help you narrow it down",
+        "body": "Specs, materials, packaging and a target landed price — we turn the idea into a brief a factory can quote."
+      },
+      {
+        "title": "We find the right source",
+        "body": "We shortlist verified factories, visit and audit them on the ground, and bring you comparable quotes instead of promises."
+      },
+      {
+        "title": "We negotiate, contract, and place your order",
+        "body": "Price, terms, samples and payment protection agreed in writing before anything is made."
+      },
+      {
+        "title": "We coordinate delivery, QC, and prepare for shipment",
+        "body": "In-line and pre-shipment inspection, then consolidation, labelling and every export document signed off."
+      },
+      {
+        "title": "Your goods are on the way",
+        "body": "Sea, rail or air. Booking, insurance and tracking handled, with customs cleared at both ends."
+      },
+      {
+        "title": "You receive what you were waiting for",
+        "body": "Delivered to your warehouse or held in ours. What you approved is what arrives."
+      }
+    ]
+  },
+  "who": {
+    "eyebrow": "Who we are",
+    "heading": "A partner, not a middleman",
+    "statContainers": { "value": "800+", "label": "Containers shipped per year" },
+    "statPeople": { "value": "200+", "label": "People on our team" },
+    "midText": "Sourcing from China is easy to start and hard to trust. Talea replaces the chain of brokers, agents and forwarders with one accountable team that is physically there — in the factory, at the port, and on the paperwork.",
+    "midSub": "Offices in Shanghai. Sourcing staff and inspectors across Guangdong, Zhejiang and Fujian.",
+    "statYears": { "value": "20+", "label": "Years of experience" },
+    "statCountries": { "value": "10+", "label": "Countries exported to" }
+  },
+  "testimonial": {
+    "quote": "Talea are our eyes and ears in China. Reliable, responsive, and genuinely invested in our success.",
+    "name": "Mike Morgan",
+    "role": "Operations Director, Nexora"
+  },
+  "services": {
+    "eyebrow": "Our services",
+    "heading": "Where are you starting from?",
+    "subtitle": "Pick the situation that sounds like yours.",
+    "scenarios": [
+      {
+        "label": "I'm sourcing for the first time",
+        "headline": "We take you from idea to first container",
+        "body": "You have a product in mind and no supply chain behind it. We turn the idea into a technical brief, find and audit candidate factories, and walk you through samples, terms and shipping so nothing is a surprise.",
+        "points": [
+          "Product brief and target costing",
+          "Factory shortlist with audit reports",
+          "Sample rounds managed end to end"
+        ],
+        "cta": "Talk to a sourcing specialist"
+      },
+      {
+        "label": "I already have a supplier",
+        "headline": "We become your team on the ground",
+        "body": "Keep the factory you trust. We handle the parts that are hard from a distance: production follow-up, inspection before money moves, consolidation, export documents and freight.",
+        "points": [
+          "On-site production follow-up",
+          "Pre-shipment inspection reports",
+          "Freight, clearance and delivery"
+        ],
+        "cta": "Talk to a sourcing specialist"
+      },
+      {
+        "label": "I want to build my own brand",
+        "headline": "Private label, from packaging to pallet",
+        "body": "We match your product spec to factories that can hold it, manage artwork, packaging and compliance marks, and keep your suppliers separated from your customers.",
+        "points": [
+          "OEM and private-label factory matching",
+          "Packaging, artwork and labelling",
+          "Compliance and market documentation"
+        ],
+        "cta": "Talk to a brand specialist"
+      },
+      {
+        "label": "I need QC & inspection",
+        "headline": "Eyes in the factory before you pay",
+        "body": "Our inspectors work to your checklist — during production and before shipment — and you get a photo-documented report while there is still time to fix things.",
+        "points": [
+          "Custom AQL checklists",
+          "In-line and pre-shipment inspection",
+          "Photo report within 24 hours"
+        ],
+        "cta": "Book an inspection"
+      },
+      {
+        "label": "I need warehousing only",
+        "headline": "Store, consolidate and release on your schedule",
+        "body": "Hold stock in China while you consolidate orders from several suppliers, then release shipments when your market needs them rather than when the factory finishes.",
+        "points": [
+          "Multi-supplier consolidation",
+          "Short and long-term storage",
+          "Release on your schedule"
+        ],
+        "cta": "Ask about warehousing"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Start here",
+    "heading": "Ready to source with confidence?",
+    "subtitle": "Tell us what you want to sell. We come back with sources, real prices and a plan to get it to your warehouse.",
+    "button": "Start sourcing",
+    "note": "No obligation. A reply within one working day."
+  },
+  "footer": {
+    "tagline": "Moving goods, building trust. End-to-end sourcing, quality control and logistics out of China.",
+    "servicesHeading": "Services",
+    "services": ["Product sourcing", "Quality control", "Procurement", "Freight & clearance", "Warehousing"],
+    "companyHeading": "Company",
+    "company": ["Who we are", "How it begins", "Get a quote"],
+    "contactHeading": "Contact",
+    "location": "Shanghai, China",
+    "copyright": "© {year} Talea. All rights reserved.",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service"
+  }
+}

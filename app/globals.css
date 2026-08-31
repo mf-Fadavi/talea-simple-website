@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand: #b32624;
+  --color-brand-hover: #9e211f;
+  --color-brand-active: #861c1a;
+  --color-brand-soft: #fff4f3;
+  --color-brand-border: #e7a3a1;
+  --color-ink: #151515;
+  --color-gray-150: #f0ece8;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-latin: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-fa: var(--font-vazirmatn), var(--font-latin);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  font-family: var(--font-latin);
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-fa);
+}
+
+[id] {
+  scroll-margin-top: 5rem;
+}
+
+::selection {
+  background: var(--color-brand);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(179, 38, 36, 0.25);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
