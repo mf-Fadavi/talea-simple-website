@@ -1,10 +1,10 @@
 import type { Dictionary } from "@/lib/i18n/dictionaries";
-import Image from "next/image";
 import containers from "@/public/images/containers.png";
 import symPeople from "@/public/images/sym-people.png";
-import wChina from "@/public/images/w-china.png";
 import symTrust from "@/public/images/sym-trust.png";
+import wChina from "@/public/images/w-china.png";
 import wWorld from "@/public/images/w-world.png";
+import Image from "next/image";
 
 export function WhoWeAre({ dict }: { dict: Dictionary }) {
   return (
@@ -81,7 +81,7 @@ export function WhoWeAre({ dict }: { dict: Dictionary }) {
             <Image
               src={wWorld}
               alt=""
-              className="pointer-events-none absolute end-[-6%] top-0 w-full opacity-25"
+              className="pointer-events-none absolute start-8 top-4 w-full opacity-25"
             />
             <span className="relative text-4xl leading-none font-extrabold tracking-tight md:text-5xl">
               {dict.who.statCountries.value}
