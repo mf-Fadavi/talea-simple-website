@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { ArrowForwardIcon, ArrowDownIcon, CheckCircleIcon } from "@/components/icons";
-import taleaMark from "@/public/images/talea-mark.svg";
+import taleaMark from "@/public/images/talea-logo-icon.svg";
 
 export function Hero({ dict }: { dict: Dictionary }) {
   return (

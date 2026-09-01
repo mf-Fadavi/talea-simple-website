@@ -1,7 +1,6 @@
-import Image from "next/image";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
-import taleaLogo from "@/public/images/talea-logo.svg";
+import { TaleaLogo } from "@/components/talea-logo";
 
 const SOCIAL_ICONS = {
   linkedin: (
@@ -34,13 +33,7 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-10 pb-10 sm:grid-cols-2 md:grid-cols-4 md:pb-14">
           <div className="grid content-start gap-4">
-            <Image
-              src={taleaLogo}
-              alt="Talea"
-              width={132}
-              height={38}
-              className="h-9 w-auto brightness-0 invert"
-            />
+            <TaleaLogo variant="text" height={36} className="brightness-0 invert" />
             <p className="max-w-[30ch] text-sm leading-relaxed text-gray-400">
               {dict.footer.tagline}
             </p>

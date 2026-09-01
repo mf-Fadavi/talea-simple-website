@@ -1,16 +1,25 @@
 "use client";
 
-import { useState } from "react";
-import Image from "next/image";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { MenuIcon, CloseIcon } from "@/components/icons";
-import taleaLogo from "@/public/images/talea-logo.svg";
+import { TaleaLogo } from "@/components/talea-logo";
+
+const SCROLL_THRESHOLD = 24;
 
 export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > SCROLL_THRESHOLD);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const navItems = [
     { href: "#services", label: dict.nav.services },
@@ -22,14 +31,26 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/90 backdrop-blur">
       <div className="mx-auto flex h-[76px] max-w-7xl items-center justify-between gap-6 px-6">
-        <Link href={`/${locale}#top`} aria-label="Talea" className="shrink-0">
-          <Image
-            src={taleaLogo}
-            alt="Talea"
-            width={132}
+        <Link
+          href={`/${locale}#top`}
+          aria-label="Talea"
+          className="relative block h-9 w-[85px] shrink-0"
+        >
+          <TaleaLogo
+            variant="text"
             height={36}
-            className="h-9 w-auto"
-            priority
+            style={{ position: "absolute", top: 0, insetInlineStart: 0 }}
+            className={`transition-opacity duration-300 ${
+              scrolled ? "pointer-events-none opacity-0" : "opacity-100"
+            }`}
+          />
+          <TaleaLogo
+            variant="icon"
+            height={36}
+            style={{ position: "absolute", top: 0, insetInlineStart: 0 }}
+            className={`transition-opacity duration-300 ${
+              scrolled ? "opacity-100" : "pointer-events-none opacity-0"
+            }`}
           />
         </Link>
 
