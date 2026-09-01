@@ -81,7 +81,7 @@ export function WhoWeAre({ dict }: { dict: Dictionary }) {
             <Image
               src={wWorld}
               alt=""
-              className="pointer-events-none absolute end-[-6%] top-0 w-full opacity-15 brightness-150 invert"
+              className="pointer-events-none absolute end-[-6%] top-0 w-full opacity-25"
             />
             <span className="relative text-4xl leading-none font-extrabold tracking-tight md:text-5xl">
               {dict.who.statCountries.value}
