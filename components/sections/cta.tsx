@@ -1,10 +1,11 @@
 import Image from "next/image";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import type { Locale } from "@/lib/i18n/config";
 import { ArrowForwardIcon } from "@/components/icons";
 import wTrain from "@/public/images/w-train.png";
 import wShip from "@/public/images/w-ship.png";
 
-export function Cta({ dict }: { dict: Dictionary }) {
+export function Cta({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   return (
     <section
       id="cta"
@@ -32,7 +33,7 @@ export function Cta({ dict }: { dict: Dictionary }) {
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <a
-            href="#contact"
+            href={`/${locale}/contact`}
             className="inline-flex min-h-14 items-center gap-2.5 rounded-xl bg-white px-7 text-base font-semibold text-brand transition-transform hover:-translate-y-0.5 hover:shadow-xl hover:shadow-black/20"
           >
             {dict.cta.button}

@@ -153,5 +153,320 @@
     "copyright": "© {year} Talea. All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms of service"
+  },
+  "contactHub": {
+    "eyebrow": "Get in touch",
+    "heading": "How would you like to reach us?",
+    "subtitle": "Pick whichever fits — a quick message, or a guided form that adapts to your industry and the services you need.",
+    "back": "Back to home",
+    "options": [
+      {
+        "title": "Quick contact",
+        "meta": "About 1 minute",
+        "description": "One page, a few fields. Best when you already know what you want to ask.",
+        "cta": "Send a quick message"
+      },
+      {
+        "title": "Detailed request",
+        "meta": "About 4 minutes",
+        "description": "A short guided form that adapts to your industry and the services you need, so TALEA gets the full picture upfront.",
+        "cta": "Start the guided form"
+      }
+    ]
+  },
+  "quickForm": {
+    "eyebrow": "Contact",
+    "headingPrefix": "Contact",
+    "headingAccent": "TALEA.",
+    "intro": "Tell us how we can help. Send your message and, if useful, attach any relevant documents, photos, or specifications.",
+    "back": "Back to contact options",
+    "name": { "label": "Full name" },
+    "company": { "label": "Company" },
+    "email": { "label": "Email" },
+    "phone": { "label": "Phone / WhatsApp" },
+    "regarding": {
+      "label": "Regarding",
+      "placeholder": "Select a topic",
+      "other": "Other",
+      "options": [
+        "Sourcing",
+        "Supplier Verification",
+        "Purchasing",
+        "Quality Control",
+        "Warehousing",
+        "Consolidation",
+        "Shipping / Delivery",
+        "Payments / Financial Services",
+        "Existing Order / Customer Support"
+      ]
+    },
+    "otherRegarding": { "label": "Please specify", "placeholder": "What is your inquiry about?" },
+    "message": {
+      "label": "Message",
+      "placeholder": "Tell us what you need, what you are trying to achieve, and any important details."
+    },
+    "attachments": {
+      "label": "Attachments",
+      "title": "Upload files or photos",
+      "copy": "Optional · Up to 5 files · 10 MB each · JPG, PNG, WEBP, PDF, Word, Excel or CSV",
+      "action": "Choose files",
+      "errorTooMany": "Please select no more than 5 files.",
+      "errorTooLarge": "\"{name}\" is larger than 10 MB."
+    },
+    "submit": "Send message",
+    "success": {
+      "heading": "Message sent.",
+      "body": "Thank you for contacting TALEA. Your inquiry has been received."
+    }
+  },
+  "smartForm": {
+    "eyebrow": "Contact",
+    "back": "Back to contact options",
+    "stepOf": "Step {current} of {total}",
+    "complete": "Complete",
+    "steps": ["General", "Business", "Services", "Details", "Commercial", "Review"],
+    "nav": { "back": "Back", "continue": "Continue", "submit": "Submit request", "saveDraft": "Save draft", "saved": "Saved" },
+    "removeLabel": "Remove",
+    "typeLabel": "Type",
+    "step0": {
+      "eyebrow": "01 · General information",
+      "heading": "Who are we speaking with?",
+      "intro": "Start with the essentials. Extra contact details and addresses are optional and can be added whenever they are useful.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "jobTitle": "Job title",
+      "jobTitlePlaceholder": "e.g. Owner, Buyer, Operations Manager",
+      "company": "Company / organization",
+      "companyPlaceholder": "Company name",
+      "emails": {
+        "heading": "Email addresses",
+        "description": "Add another email for a colleague, accounting contact, purchasing department, or another useful point of contact.",
+        "add": "Add email",
+        "types": ["Primary", "Work", "Accounting", "Purchasing"],
+        "other": "Other",
+        "otherPlaceholder": "Please specify the email type",
+        "valueLabel": "Email",
+        "valuePlaceholder": "name@company.com"
+      },
+      "phones": {
+        "heading": "Phone numbers",
+        "description": "One number is enough to start. Add WhatsApp, office, purchasing, or another contact if helpful.",
+        "add": "Add phone",
+        "types": ["Primary", "WhatsApp", "Office", "Purchasing"],
+        "other": "Other",
+        "otherPlaceholder": "Please specify the phone type",
+        "valueLabel": "Phone",
+        "valuePlaceholder": "+49 …"
+      },
+      "addresses": {
+        "heading": "Addresses",
+        "description": "You can add another address, for example a delivery address, warehouse, billing address, or branch. You can also do this later.",
+        "add": "Add address",
+        "types": ["Business", "Delivery", "Billing", "Warehouse"],
+        "other": "Other",
+        "otherPlaceholder": "Please specify the address type",
+        "valueLabel": "Address",
+        "valuePlaceholder": "Street, city, postal code, country"
+      }
+    },
+    "step1": {
+      "eyebrow": "02 · Brand & business",
+      "heading": "Tell us about your business.",
+      "intro": "This helps TALEA understand the commercial context and ask better questions about sourcing, QC, purchasing, warehousing, and shipping.",
+      "brandName": { "label": "Brand / shop name", "placeholder": "Brand or shop name" },
+      "website": { "label": "Website / shop URL", "placeholder": "https://" },
+      "businessType": {
+        "label": "Business type",
+        "placeholder": "Select one",
+        "other": "Other",
+        "otherPlaceholder": "Please specify the business type",
+        "options": ["Brand owner", "Retailer / shop", "Wholesaler / distributor", "E-commerce seller", "Manufacturer", "Service company"]
+      },
+      "mainMarket": {
+        "label": "Main market",
+        "placeholder": "Select region",
+        "options": ["Europe", "Middle East", "North America", "Africa", "Asia-Pacific", "Multiple regions"]
+      },
+      "industry": {
+        "heading": "Field of business",
+        "description": "Choose the closest category. We use this to show only the most relevant follow-up questions.",
+        "otherLabel": "Please specify your field of business",
+        "otherPlaceholder": "e.g. toys, automotive parts, food packaging",
+        "options": [
+          { "key": "fashion", "icon": "FA", "label": "Fashion & apparel", "description": "Clothing, shoes, bags, accessories and textile products." },
+          { "key": "electronics", "icon": "EL", "label": "Electronics", "description": "Consumer electronics, accessories, components and devices." },
+          { "key": "home", "icon": "HF", "label": "Home & furniture", "description": "Furniture, lighting, décor, household and lifestyle goods." },
+          { "key": "beauty", "icon": "BP", "label": "Beauty & care", "description": "Cosmetics, packaging, beauty tools and personal care." },
+          { "key": "machinery", "icon": "MI", "label": "Industrial", "description": "Machinery, tools, production equipment and technical items." },
+          { "key": "other", "icon": "+", "label": "Other", "description": "Tell us the category in the next step and we will adapt from there." }
+        ]
+      }
+    },
+    "step2": {
+      "eyebrow": "03 · Services needed",
+      "heading": "What do you need help with?",
+      "intro": "Select everything that applies. Your next step will automatically change so we only ask about the selected services.",
+      "allService": { "icon": "A–Z", "label": "A–Z / Full service", "description": "Select the complete workflow. This automatically selects every service below." },
+      "options": [
+        { "key": "sourcing", "icon": "01", "label": "Sourcing", "description": "Find suppliers, products, factories, alternatives and quotations." },
+        { "key": "verification", "icon": "02", "label": "Supplier verification", "description": "Check a supplier, factory, company or product before committing." },
+        { "key": "purchasing", "icon": "03", "label": "Purchasing & payment", "description": "Order execution, supplier payment and commercial coordination." },
+        { "key": "qc", "icon": "04", "label": "Quality control", "description": "Check quantity, quality, packaging, visible defects and specifications." },
+        { "key": "warehousing", "icon": "05", "label": "Warehousing", "description": "Receive, store, organize, consolidate or prepare goods in China." },
+        { "key": "shipping", "icon": "06", "label": "Shipping / delivery", "description": "Air, sea or rail transport from China to the final destination." }
+      ],
+      "note": "You do not need to know the exact service mix. Select what seems relevant and TALEA can adjust the scope after reviewing your request."
+    },
+    "step3": {
+      "eyebrow": "04 · Adaptive questions",
+      "heading": "A few details about the request.",
+      "intro": "This page is generated from your previous answers. It keeps the request short while collecting the details that have the highest operational value.",
+      "industryBlocks": {
+        "fashion": {
+          "heading": "Fashion & apparel",
+          "intro": "Only the category and product maturity matter at this stage.",
+          "categoriesLabel": "Which categories are involved?",
+          "categories": ["Clothing", "Shoes", "Bags", "Accessories", "Textiles"],
+          "segment": { "label": "Target segment", "placeholder": "Select", "options": ["Women", "Men", "Kids", "Unisex", "Mixed"] },
+          "status": {
+            "label": "Product status",
+            "placeholder": "Select",
+            "options": [
+              "I already have exact products / suppliers",
+              "I have references but need sourcing",
+              "I only have the concept / specification"
+            ]
+          }
+        },
+        "electronics": {
+          "heading": "Electronics",
+          "intro": "We mainly need to know whether the product is standard or customized and whether compliance is relevant.",
+          "type": { "label": "Product type", "placeholder": "e.g. accessories, device, component" },
+          "certification": { "label": "Compliance / certification", "placeholder": "e.g. CE, FCC, RoHS — if known" }
+        },
+        "home": {
+          "heading": "Home & furniture",
+          "intro": "Large items are mainly affected by dimensions, materials, and shipment volume.",
+          "type": { "label": "Product group", "placeholder": "e.g. furniture, lighting, décor" },
+          "dimensions": { "label": "Approx. largest item dimensions", "placeholder": "If relevant" }
+        },
+        "beauty": {
+          "heading": "Beauty & personal care",
+          "intro": "Tell us whether the request concerns finished goods, private label, or packaging.",
+          "typeLabel": "Request type",
+          "types": ["Finished goods", "Private label", "Packaging only"]
+        },
+        "machinery": {
+          "heading": "Machinery & industrial",
+          "intro": "Technical requirements matter more than marketing categories.",
+          "type": { "label": "Equipment / component", "placeholder": "What is the item?" },
+          "spec": { "label": "Technical specification available?", "placeholder": "Select", "options": ["Yes, complete", "Partially", "No, need help defining it"] }
+        }
+      },
+      "serviceBlocks": {
+        "sourcing": {
+          "heading": "Sourcing",
+          "intro": "We only need enough information to understand the target product and commercial range.",
+          "product": { "label": "What should we source?", "placeholder": "Product or product family" },
+          "qty": { "label": "Approx. quantity", "placeholder": "e.g. 500 pcs, 2,000 units" },
+          "targetPrice": { "label": "Target unit price / budget", "placeholder": "Optional" },
+          "reference": { "label": "Reference link / SKU", "placeholder": "Optional" }
+        },
+        "verification": {
+          "heading": "Supplier verification",
+          "intro": "If you already know the supplier, give us a name or link. Detailed documents can come later.",
+          "name": { "label": "Supplier / factory name", "placeholder": "If known" },
+          "link": { "label": "Website / marketplace link", "placeholder": "Alibaba, 1688, website, etc." }
+        },
+        "purchasing": {
+          "heading": "Purchasing & payment",
+          "intro": "We need a rough order value and whether supplier terms are already agreed.",
+          "orderValue": { "label": "Approx. order value", "placeholder": "e.g. USD 15,000" },
+          "termsAgreed": { "label": "Terms agreed?", "placeholder": "Select", "options": ["Yes", "Partially", "No"] }
+        },
+        "qc": {
+          "heading": "Quality control",
+          "intro": "Tell us when goods are expected and what matters most.",
+          "goodsReady": { "label": "Goods ready around" },
+          "priority": {
+            "label": "Main QC priority",
+            "placeholder": "Select",
+            "options": ["General visual inspection", "Quantity", "Measurements / specifications", "Packaging", "Function / operation", "Not sure"]
+          }
+        },
+        "warehousing": {
+          "heading": "Warehousing",
+          "intro": "We mainly need to know why the goods need to stay in the warehouse.",
+          "purposeLabel": "Warehouse purpose",
+          "purposes": ["Consolidation", "Short-term storage", "Inspection / repacking", "Fulfilment"]
+        },
+        "shipping": {
+          "heading": "Shipping / delivery",
+          "intro": "Destination has the biggest impact at this stage. Cargo measurements can be confirmed later.",
+          "destination": { "label": "Delivery destination", "placeholder": "City, postal code, country" },
+          "transport": { "label": "Preferred transport", "placeholder": "Not sure / recommend", "options": ["Sea freight", "Air freight", "Rail freight", "Courier / express"] },
+          "cargoSize": { "label": "Approx. cargo size / weight", "placeholder": "Optional if known" }
+        }
+      },
+      "attachments": {
+        "heading": "Files & media",
+        "description": "Upload product photos, specifications, quotations, supplier documents, drawings, spreadsheets, or other useful references.",
+        "title": "Add pictures or files",
+        "copy": "Up to 10 files · 10 MB each · 30 MB total. Images, PDF, Word, Excel, CSV and TXT.",
+        "action": "Choose files",
+        "errorTooMany": "Please select no more than 10 files.",
+        "errorOversizedOne": "1 file is larger than 10 MB.",
+        "errorOversizedMany": "{count} files are larger than 10 MB.",
+        "errorTotalTooLarge": "The combined upload is larger than 30 MB."
+      }
+    },
+    "step4": {
+      "eyebrow": "05 · Commercial fit",
+      "heading": "What should we optimize for?",
+      "intro": "A few commercial signals help us prioritize the right service level and avoid asking unnecessary operational questions.",
+      "orderSize": {
+        "label": "Typical order size",
+        "placeholder": "Select range",
+        "options": ["Under USD 2,500", "USD 2,500–10,000", "USD 10,000–50,000", "USD 50,000–250,000", "Above USD 250,000", "Varies significantly"]
+      },
+      "frequency": {
+        "label": "Purchase frequency",
+        "placeholder": "Select",
+        "options": ["One-time project", "A few times per year", "Monthly", "Weekly / continuous", "Not decided yet"]
+      },
+      "timeline": {
+        "label": "When do you want to start?",
+        "placeholder": "Select",
+        "options": ["Immediately", "Within 2 weeks", "Within 1 month", "1–3 months", "Researching / planning"]
+      },
+      "priority": {
+        "label": "Main priority",
+        "placeholder": "Select",
+        "options": ["Price", "Quality", "Speed", "Reliability", "Flexibility", "Balanced"]
+      },
+      "notes": {
+        "label": "Anything important we should know?",
+        "placeholder": "Special product requirements, current supplier problems, target deadlines, preferred way of working, or anything else that helps us understand the request."
+      }
+    },
+    "step5": {
+      "eyebrow": "06 · Review",
+      "heading": "Review your request.",
+      "intro": "This is the information TALEA would receive. You can go back and change anything before submitting.",
+      "note": "Submitting this prototype does not send data anywhere. In production, connect the final handler to your CRM, API route, or lead management system.",
+      "cards": {
+        "contact": { "title": "Contact", "name": "Name", "company": "Company", "email": "Email", "phone": "Phone", "address": "Address" },
+        "business": { "title": "Business", "brand": "Brand / shop", "businessType": "Business type", "industry": "Industry", "mainMarket": "Main market", "website": "Website" },
+        "need": { "title": "Need", "services": "Services", "product": "Product / sourcing", "supplier": "Supplier", "destination": "Delivery destination", "warehouse": "Warehouse purpose", "fashionCategory": "Fashion category", "files": "Files" },
+        "commercial": { "title": "Commercial fit", "orderSize": "Typical order size", "frequency": "Purchase frequency", "timeline": "Start timeline", "priority": "Main priority", "notes": "Notes" }
+      },
+      "empty": "—",
+      "fullService": "A–Z / Full service",
+      "otherPrefix": "Other — "
+    },
+    "step6": {
+      "heading": "Your request is ready.",
+      "body": "The adaptive form captured the core lead profile, service needs, industry-specific context, and commercial fit without forcing the customer through irrelevant questions."
+    }
   }
 }

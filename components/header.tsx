@@ -25,7 +25,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
     { href: "#services", label: dict.nav.services },
     { href: "#who", label: dict.nav.who },
     { href: "#process", label: dict.nav.process },
-    { href: "#contact", label: dict.nav.contact },
+    { href: `/${locale}/contact`, label: dict.nav.contact },
   ];
 
   return (
@@ -55,15 +55,25 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
-          {navItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="text-sm font-medium text-ink transition-colors hover:text-brand"
-            >
-              {item.label}
-            </a>
-          ))}
+          {navItems.map((item) =>
+            item.href.startsWith("/") ? (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-sm font-medium text-ink transition-colors hover:text-brand"
+              >
+                {item.label}
+              </Link>
+            ) : (
+              <a
+                key={item.href}
+                href={item.href}
+                className="text-sm font-medium text-ink transition-colors hover:text-brand"
+              >
+                {item.label}
+              </a>
+            ),
+          )}
         </nav>
 
         <div className="flex items-center gap-3">
@@ -89,16 +99,27 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
       {open && (
         <div className="border-t border-black/5 bg-white px-6 py-4 md:hidden">
           <nav className="grid gap-1">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                onClick={() => setOpen(false)}
-                className="border-b border-gray-150 py-3.5 text-base font-semibold text-ink"
-              >
-                {item.label}
-              </a>
-            ))}
+            {navItems.map((item) =>
+              item.href.startsWith("/") ? (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setOpen(false)}
+                  className="border-b border-gray-150 py-3.5 text-base font-semibold text-ink"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setOpen(false)}
+                  className="border-b border-gray-150 py-3.5 text-base font-semibold text-ink"
+                >
+                  {item.label}
+                </a>
+              ),
+            )}
             <a
               href="#cta"
               onClick={() => setOpen(false)}
