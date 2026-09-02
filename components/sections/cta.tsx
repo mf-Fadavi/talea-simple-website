@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 import { ArrowForwardIcon } from "@/components/icons";
@@ -32,13 +33,13 @@ export function Cta({ dict, locale }: { dict: Dictionary; locale: Locale }) {
           {dict.cta.subtitle}
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <a
+          <Link
             href={`/${locale}/contact`}
             className="inline-flex min-h-14 items-center gap-2.5 rounded-xl bg-white px-7 text-base font-semibold text-brand transition-transform hover:-translate-y-0.5 hover:shadow-xl hover:shadow-black/20"
           >
             {dict.cta.button}
             <ArrowForwardIcon />
-          </a>
+          </Link>
           <span className="text-[15px] opacity-85">{dict.cta.note}</span>
         </div>
       </div>

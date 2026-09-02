@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 import { TaleaLogo } from "@/components/talea-logo";
@@ -25,7 +26,7 @@ const SOCIAL_ICONS = {
 };
 
 export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
-  const companyLinks = ["#who", "#process", "#cta"];
+  const companyLinks = ["#who", "#process", `/${locale}/contact`];
   const year = new Date().getFullYear();
 
   return (
@@ -58,15 +59,25 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             <span className="text-xs font-bold tracking-widest text-gray-500 uppercase">
               {dict.footer.companyHeading}
             </span>
-            {dict.footer.company.map((label, i) => (
-              <a
-                key={label}
-                href={companyLinks[i]}
-                className="text-sm text-gray-200 transition-colors hover:text-white"
-              >
-                {label}
-              </a>
-            ))}
+            {dict.footer.company.map((label, i) =>
+              companyLinks[i].startsWith("/") ? (
+                <Link
+                  key={label}
+                  href={companyLinks[i]}
+                  className="text-sm text-gray-200 transition-colors hover:text-white"
+                >
+                  {label}
+                </Link>
+              ) : (
+                <a
+                  key={label}
+                  href={companyLinks[i]}
+                  className="text-sm text-gray-200 transition-colors hover:text-white"
+                >
+                  {label}
+                </a>
+              ),
+            )}
           </div>
 
           <div className="grid content-start gap-3">

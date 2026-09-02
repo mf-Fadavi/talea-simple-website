@@ -78,12 +78,12 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
 
         <div className="flex items-center gap-3">
           <LanguageSwitcher locale={locale} />
-          <a
-            href="#cta"
+          <Link
+            href={`/${locale}/contact`}
             className="hidden min-h-12 items-center rounded-xl bg-brand px-5 text-sm font-semibold text-white transition-colors hover:bg-brand-hover md:inline-flex"
           >
             {dict.common.startSourcing}
-          </a>
+          </Link>
           <button
             type="button"
             aria-label={dict.nav.menu}
@@ -120,13 +120,13 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: Locale }) {
                 </a>
               ),
             )}
-            <a
-              href="#cta"
+            <Link
+              href={`/${locale}/contact`}
               onClick={() => setOpen(false)}
               className="mt-3 inline-flex min-h-12 items-center justify-center rounded-xl bg-brand px-5 text-sm font-semibold text-white"
             >
               {dict.common.startSourcing}
-            </a>
+            </Link>
           </nav>
         </div>
       )}

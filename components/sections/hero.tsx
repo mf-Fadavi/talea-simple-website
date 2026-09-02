@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import type { Locale } from "@/lib/i18n/config";
 import { ArrowForwardIcon, ArrowDownIcon, CheckCircleIcon } from "@/components/icons";
 import taleaMark from "@/public/images/talea-logo-icon.svg";
 
-export function Hero({ dict }: { dict: Dictionary }) {
+export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   return (
     <section
       id="top"
@@ -20,13 +22,13 @@ export function Hero({ dict }: { dict: Dictionary }) {
             {dict.hero.subtitle}
           </p>
           <div className="flex flex-wrap items-center gap-4">
-            <a
-              href="#cta"
+            <Link
+              href={`/${locale}/contact`}
               className="inline-flex min-h-13 items-center gap-2.5 rounded-xl bg-brand px-6 text-[15px] font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-brand-hover hover:shadow-lg hover:shadow-brand/20"
             >
               {dict.hero.primaryCta}
               <ArrowForwardIcon />
-            </a>
+            </Link>
             <a
               href="#process"
               className="inline-flex min-h-13 items-center gap-2 px-1 text-[15px] font-semibold text-ink transition-colors hover:text-brand"

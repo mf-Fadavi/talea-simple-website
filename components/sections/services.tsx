@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import type { Locale } from "@/lib/i18n/config";
 import { ArrowForwardIcon, CheckCircleIcon } from "@/components/icons";
 
-export function Services({ dict }: { dict: Dictionary }) {
+export function Services({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [active, setActive] = useState(0);
   const scenario = dict.services.scenarios[active];
 
@@ -61,13 +63,13 @@ export function Services({ dict }: { dict: Dictionary }) {
                 </li>
               ))}
             </ul>
-            <a
-              href="#cta"
+            <Link
+              href={`/${locale}/contact`}
               className="mt-1 inline-flex min-h-12 w-fit items-center gap-2.5 rounded-xl bg-brand px-5 text-sm font-semibold text-white transition-colors hover:bg-brand-hover"
             >
               {scenario.cta}
               <ArrowForwardIcon />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
