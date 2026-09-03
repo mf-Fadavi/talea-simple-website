@@ -8,9 +8,9 @@ import Image from "next/image";
 
 export function WhoWeAre({ dict }: { dict: Dictionary }) {
   return (
-    <section id="who" className="border-y border-gray-150 bg-gray-50 py-14 md:py-24">
+    <section id="who" className="border-y border-gray-150 bg-gray-50 py-10 md:py-14">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="mb-8 grid max-w-2xl gap-3.5 md:mb-12">
+        <div className="mb-6 grid max-w-2xl gap-2.5 md:mb-8">
           <p className="text-xs font-bold tracking-widest text-brand uppercase">
             {dict.who.eyebrow}
           </p>
@@ -19,8 +19,8 @@ export function WhoWeAre({ dict }: { dict: Dictionary }) {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 gap-3.5 md:grid-cols-4 md:[grid-template-rows:repeat(2,minmax(190px,auto))]">
-          <div className="relative flex flex-col justify-end gap-1.5 overflow-hidden rounded-2xl border border-brand bg-brand p-6 text-white transition-transform hover:-translate-y-1 md:col-start-1 md:row-start-1 md:p-7">
+        <div className="grid grid-cols-2 gap-3.5 md:grid-cols-4 md:[grid-template-rows:repeat(2,minmax(150px,auto))]">
+          <div className="relative flex flex-col justify-end gap-1.5 overflow-hidden rounded-2xl border border-brand bg-brand p-6 text-white transition-transform hover:-translate-y-1 md:col-start-1 md:row-start-1 md:p-6">
             <Image
               src={containers}
               alt=""
@@ -34,7 +34,7 @@ export function WhoWeAre({ dict }: { dict: Dictionary }) {
             </span>
           </div>
 
-          <div className="relative flex flex-col justify-end gap-1.5 overflow-hidden rounded-2xl border border-[#F3DEDC] bg-gradient-to-b from-white to-[#FFF6F5] p-6 shadow-[0_10px_26px_rgba(179,38,36,0.07)] transition-transform hover:-translate-y-1 md:col-start-1 md:row-start-2 md:p-7">
+          <div className="relative flex flex-col justify-end gap-1.5 overflow-hidden rounded-2xl border border-[#F3DEDC] bg-gradient-to-b from-white to-[#FFF6F5] p-6 shadow-[0_10px_26px_rgba(179,38,36,0.07)] transition-transform hover:-translate-y-1 md:col-start-1 md:row-start-2 md:p-6">
             <Image
               src={symPeople}
               alt=""
@@ -48,7 +48,7 @@ export function WhoWeAre({ dict }: { dict: Dictionary }) {
             </span>
           </div>
 
-          <div className="relative col-span-2 flex flex-col justify-center gap-4 overflow-hidden rounded-2xl bg-gradient-to-br from-[#FFF7F6] via-[#FDEDEB] to-[#F7E3E0] p-7 md:col-start-2 md:row-start-1 md:row-span-2 md:p-11">
+          <div className="relative col-span-2 flex flex-col justify-center gap-4 overflow-hidden rounded-2xl bg-gradient-to-br from-[#FFF7F6] via-[#FDEDEB] to-[#F7E3E0] p-7 md:col-start-2 md:row-start-1 md:row-span-2 md:p-8">
             <Image
               src={wChina}
               alt=""
@@ -63,7 +63,7 @@ export function WhoWeAre({ dict }: { dict: Dictionary }) {
             </div>
           </div>
 
-          <div className="relative flex flex-col justify-end gap-1.5 overflow-hidden rounded-2xl border border-[#F3DEDC] bg-gradient-to-b from-white to-[#FFF6F5] p-6 shadow-[0_10px_26px_rgba(179,38,36,0.07)] transition-transform hover:-translate-y-1 md:col-start-4 md:row-start-1 md:p-7">
+          <div className="relative flex flex-col justify-end gap-1.5 overflow-hidden rounded-2xl border border-[#F3DEDC] bg-gradient-to-b from-white to-[#FFF6F5] p-6 shadow-[0_10px_26px_rgba(179,38,36,0.07)] transition-transform hover:-translate-y-1 md:col-start-4 md:row-start-1 md:p-6">
             <Image
               src={symTrust}
               alt=""
@@ -77,7 +77,7 @@ export function WhoWeAre({ dict }: { dict: Dictionary }) {
             </span>
           </div>
 
-          <div className="relative flex flex-col justify-end gap-1.5 overflow-hidden rounded-2xl bg-ink p-6 text-white transition-transform hover:-translate-y-1 md:p-7">
+          <div className="relative flex flex-col justify-end gap-1.5 overflow-hidden rounded-2xl bg-ink p-6 text-white transition-transform hover:-translate-y-1 md:p-6">
             <Image
               src={wWorld}
               alt=""

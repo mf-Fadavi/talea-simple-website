@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "title": "Talea — Alles in China. Ein Partner.",
+    "description": "Sourcing, Qualitätskontrolle, Versand und Lagerhaltung aus China — abgewickelt von einem verantwortlichen Team vor Ort."
+  },
+  "nav": {
+    "services": "Leistungen",
+    "who": "Über uns",
+    "process": "So beginnt es",
+    "tools": "Tools",
+    "contact": "Kontakt",
+    "menu": "Menü"
+  },
+  "common": {
+    "startSourcing": "Sourcing starten"
+  },
+  "hero": {
+    "titleLine1": "Alles in China.",
+    "titleAccent": "Ein Partner.",
+    "subtitle": "Sourcing, Qualitätskontrolle, Versand und Lagerhaltung — von einem Team vor Ort abgewickelt.",
+    "primaryCta": "Sourcing starten",
+    "secondaryCta": "So funktioniert es",
+    "badge1": "Team vor Ort in China",
+    "badge2": "Ein Ansprechpartner"
+  },
+  "process": {
+    "eyebrow": "Der Prozess",
+    "heading": "Wo fängt es an?",
+    "subtitleWide": "Sieben Schritte zwischen einer Idee und einer Palette in Ihrem Lager. Sie wissen bei jedem einzelnen davon genau, wo Sie stehen.",
+    "subtitleNarrow": "Sieben Schritte zwischen einer Idee und einer Palette in Ihrem Lager.",
+    "steps": [
+      {
+        "title": "Alles beginnt mit einer Idee",
+        "body": "Ein Produkt, ein Markt, ein Gefühl. Sie sagen uns, was Sie verkaufen möchten und an wen."
+      },
+      {
+        "title": "Wir helfen, sie zu konkretisieren",
+        "body": "Spezifikationen, Materialien, Verpackung und ein angestrebter Landpreis — wir verwandeln die Idee in ein Briefing, für das eine Fabrik ein Angebot erstellen kann."
+      },
+      {
+        "title": "Wir finden die richtige Quelle",
+        "body": "Wir stellen eine Shortlist geprüfter Fabriken zusammen, besuchen und auditieren sie vor Ort und liefern Ihnen vergleichbare Angebote statt bloßer Versprechen."
+      },
+      {
+        "title": "Wir verhandeln, schließen den Vertrag und platzieren Ihre Bestellung",
+        "body": "Preis, Konditionen, Muster und Zahlungsschutz werden schriftlich vereinbart, bevor irgendetwas produziert wird."
+      },
+      {
+        "title": "Wir koordinieren Lieferung, QC und Versandvorbereitung",
+        "body": "Inline- und Vorversand-Inspektion, danach Konsolidierung, Kennzeichnung und die Unterzeichnung sämtlicher Exportdokumente."
+      },
+      {
+        "title": "Ihre Ware ist unterwegs",
+        "body": "See, Bahn oder Luft. Buchung, Versicherung und Sendungsverfolgung sind geregelt, die Zollabfertigung erfolgt auf beiden Seiten."
+      },
+      {
+        "title": "Sie erhalten, worauf Sie gewartet haben",
+        "body": "Geliefert an Ihr Lager oder bei uns eingelagert. Was Sie freigegeben haben, ist genau das, was ankommt."
+      }
+    ]
+  },
+  "who": {
+    "eyebrow": "Über uns",
+    "heading": "Ein Partner, kein Zwischenhändler",
+    "statContainers": { "value": "800+", "label": "Container pro Jahr verschifft" },
+    "statPeople": { "value": "200+", "label": "Mitarbeitende in unserem Team" },
+    "midText": "Sourcing aus China ist leicht zu beginnen und schwer zu vertrauen. Talea ersetzt die Kette aus Maklern, Agenten und Spediteuren durch ein verantwortliches Team, das physisch vor Ort ist — in der Fabrik, im Hafen und bei den Unterlagen.",
+    "midSub": "Büros in Shanghai. Sourcing-Mitarbeiter und Inspektoren in Guangdong, Zhejiang und Fujian.",
+    "statYears": { "value": "20+", "label": "Jahre Erfahrung" },
+    "statCountries": { "value": "10+", "label": "Länder beliefert" }
+  },
+  "testimonial": {
+    "quote": "Talea sind unsere Augen und Ohren in China. Zuverlässig, reaktionsschnell und wirklich in unseren Erfolg investiert.",
+    "name": "Mike Morgan",
+    "role": "Operations Director, Nexora"
+  },
+  "services": {
+    "eyebrow": "Unsere Leistungen",
+    "heading": "Wo stehen Sie gerade?",
+    "subtitle": "Wählen Sie die Situation, die am ehesten auf Sie zutrifft.",
+    "scenarios": [
+      {
+        "label": "Ich sourcen zum ersten Mal",
+        "headline": "Wir begleiten Sie von der Idee bis zum ersten Container",
+        "body": "Sie haben ein Produkt im Kopf und noch keine Lieferkette dahinter. Wir verwandeln die Idee in ein technisches Briefing, finden und auditieren geeignete Fabriken und begleiten Sie durch Muster, Konditionen und Versand, sodass nichts überraschend kommt.",
+        "points": [
+          "Produkt-Briefing und Zielkalkulation",
+          "Fabrik-Shortlist mit Auditberichten",
+          "Musterrunden von Anfang bis Ende betreut"
+        ],
+        "cta": "Mit einem Sourcing-Spezialisten sprechen"
+      },
+      {
+        "label": "Ich habe bereits einen Lieferanten",
+        "headline": "Wir werden Ihr Team vor Ort",
+        "body": "Behalten Sie die Fabrik, der Sie vertrauen. Wir übernehmen die Teile, die aus der Ferne schwierig sind: Produktionsverfolgung, Inspektion vor Zahlungsfreigabe, Konsolidierung, Exportdokumente und Fracht.",
+        "points": [
+          "Produktionsverfolgung vor Ort",
+          "Vorversand-Inspektionsberichte",
+          "Fracht, Verzollung und Zustellung"
+        ],
+        "cta": "Mit einem Sourcing-Spezialisten sprechen"
+      },
+      {
+        "label": "Ich möchte meine eigene Marke aufbauen",
+        "headline": "Private Label, von der Verpackung bis zur Palette",
+        "body": "Wir gleichen Ihre Produktspezifikation mit Fabriken ab, die sie umsetzen können, kümmern uns um Artwork, Verpackung und Konformitätskennzeichnungen und halten Ihre Lieferanten von Ihren Kunden getrennt.",
+        "points": [
+          "OEM- und Private-Label-Fabrikvermittlung",
+          "Verpackung, Artwork und Etikettierung",
+          "Konformitäts- und Marktdokumentation"
+        ],
+        "cta": "Mit einem Markenspezialisten sprechen"
+      },
+      {
+        "label": "Ich benötige QC & Inspektion",
+        "headline": "Augen in der Fabrik, bevor Sie zahlen",
+        "body": "Unsere Inspektoren arbeiten nach Ihrer Checkliste — während der Produktion und vor dem Versand — und Sie erhalten einen fotodokumentierten Bericht, solange noch Zeit ist, Dinge zu korrigieren.",
+        "points": [
+          "Individuelle AQL-Checklisten",
+          "Inline- und Vorversand-Inspektion",
+          "Fotobericht innerhalb von 24 Stunden"
+        ],
+        "cta": "Inspektion buchen"
+      },
+      {
+        "label": "Ich benötige nur Lagerhaltung",
+        "headline": "Lagern, konsolidieren und nach Ihrem Zeitplan freigeben",
+        "body": "Lagern Sie Bestände in China, während Sie Bestellungen mehrerer Lieferanten konsolidieren, und geben Sie Sendungen frei, wenn Ihr Markt sie braucht — nicht wenn die Fabrik fertig ist.",
+        "points": [
+          "Konsolidierung mehrerer Lieferanten",
+          "Kurz- und langfristige Lagerung",
+          "Freigabe nach Ihrem Zeitplan"
+        ],
+        "cta": "Nach Lagerhaltung fragen"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Hier beginnen",
+    "heading": "Bereit, mit Vertrauen zu sourcen?",
+    "subtitle": "Sagen Sie uns, was Sie verkaufen möchten. Wir melden uns mit Quellen, echten Preisen und einem Plan, wie es in Ihr Lager gelangt.",
+    "button": "Sourcing starten",
+    "note": "Unverbindlich. Antwort innerhalb eines Werktags."
+  },
+  "footer": {
+    "tagline": "Waren bewegen, Vertrauen aufbauen. End-to-End-Sourcing, Qualitätskontrolle und Logistik aus China.",
+    "servicesHeading": "Leistungen",
+    "services": ["Produkt-Sourcing", "Qualitätskontrolle", "Beschaffung", "Fracht & Verzollung", "Lagerhaltung"],
+    "companyHeading": "Unternehmen",
+    "company": ["Über uns", "So beginnt es", "Angebot einholen"],
+    "contactHeading": "Kontakt",
+    "location": "Shanghai, China",
+    "copyright": "© {year} Talea. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "tools": {
+    "eyebrow": "Kostenlose Tools",
+    "heading": "Tools, die Sourcing einfacher machen",
+    "subtitle": "Praktische Rechner und Hilfsmittel, die wir für Sourcing-Teams entwickeln. Weitere folgen in Kürze.",
+    "back": "Zurück zur Startseite",
+    "badge": "Demnächst verfügbar",
+    "cta": "Benachrichtigen, wenn verfügbar",
+    "items": [
+      {
+        "icon": "cbm",
+        "title": "CBM-Rechner",
+        "description": "Berechnen Sie Frachtvolumen und Containerauslastung anhand von Kartonmaßen und Stückzahl, bevor Sie die Fracht buchen."
+      },
+      {
+        "icon": "rfq",
+        "title": "RFQ-Ersteller",
+        "description": "Verwandeln Sie eine Produktspezifikation in wenigen Minuten in eine strukturierte Preisanfrage, die Sie an mehrere Fabriken senden können."
+      },
+      {
+        "icon": "radar",
+        "title": "Produkt-Radar",
+        "description": "Verfolgen Sie Trendprodukte und Preisvergleiche über Kategorien hinweg, um Sourcing-Chancen frühzeitig zu erkennen."
+      },
+      {
+        "icon": "cost",
+        "title": "Landkosten-Rechner",
+        "description": "Addieren Sie Fracht, Zölle und Gebühren zum Fabrikpreis, um Ihre tatsächlichen Landkosten pro Einheit zu sehen."
+      },
+      {
+        "icon": "verify",
+        "title": "Lieferanten-Prüfung",
+        "description": "Prüfen Sie Gewerbeerlaubnis, Exporthistorie und Risikosignale einer Fabrik, bevor Sie sich auf eine Bestellung festlegen."
+      },
+      {
+        "icon": "hs",
+        "title": "HS-Code-Finder",
+        "description": "Finden Sie den passenden HS-Code für Ihr Produkt, um Zölle zu schätzen und Zollverzögerungen zu vermeiden."
+      }
+    ]
+  },
+  "contactHub": {
+    "eyebrow": "Kontakt aufnehmen",
+    "heading": "Wie möchten Sie uns erreichen?",
+    "subtitle": "Wählen Sie, was passt — eine kurze Nachricht oder ein geführtes Formular, das sich an Ihre Branche und Ihren Bedarf anpasst.",
+    "back": "Zurück zur Startseite",
+    "options": [
+      {
+        "title": "Kurzkontakt",
+        "meta": "Etwa 1 Minute",
+        "description": "Eine Seite, wenige Felder. Am besten, wenn Sie bereits wissen, was Sie fragen möchten.",
+        "cta": "Kurznachricht senden"
+      },
+      {
+        "title": "Detaillierte Anfrage",
+        "meta": "Etwa 4 Minuten",
+        "description": "Ein kurzes geführtes Formular, das sich an Ihre Branche und Ihren Bedarf anpasst, damit TALEA von Anfang an das vollständige Bild erhält.",
+        "cta": "Geführtes Formular starten"
+      }
+    ]
+  },
+  "quickForm": {
+    "eyebrow": "Kontakt",
+    "headingPrefix": "Kontakt",
+    "headingAccent": "TALEA.",
+    "intro": "Sagen Sie uns, wie wir helfen können. Senden Sie Ihre Nachricht und hängen Sie bei Bedarf relevante Dokumente, Fotos oder Spezifikationen an.",
+    "back": "Zurück zu den Kontaktoptionen",
+    "name": { "label": "Vollständiger Name" },
+    "company": { "label": "Unternehmen" },
+    "email": { "label": "E-Mail" },
+    "phone": { "label": "Telefon / WhatsApp" },
+    "regarding": {
+      "label": "Betreff",
+      "placeholder": "Thema auswählen",
+      "other": "Sonstiges",
+      "options": [
+        "Sourcing",
+        "Lieferantenprüfung",
+        "Einkauf",
+        "Qualitätskontrolle",
+        "Lagerhaltung",
+        "Konsolidierung",
+        "Versand / Lieferung",
+        "Zahlungen / Finanzdienstleistungen",
+        "Bestehende Bestellung / Kundensupport"
+      ]
+    },
+    "otherRegarding": { "label": "Bitte angeben", "placeholder": "Worum geht es bei Ihrer Anfrage?" },
+    "message": {
+      "label": "Nachricht",
+      "placeholder": "Beschreiben Sie, was Sie benötigen, was Sie erreichen möchten, und alle wichtigen Details."
+    },
+    "attachments": {
+      "label": "Anhänge",
+      "title": "Dateien oder Fotos hochladen",
+      "copy": "Optional · Bis zu 5 Dateien · je 10 MB · JPG, PNG, WEBP, PDF, Word, Excel oder CSV",
+      "action": "Dateien auswählen",
+      "errorTooMany": "Bitte wählen Sie höchstens 5 Dateien aus.",
+      "errorTooLarge": "\"{name}\" ist größer als 10 MB."
+    },
+    "submit": "Nachricht senden",
+    "success": {
+      "heading": "Nachricht gesendet.",
+      "body": "Vielen Dank für Ihre Kontaktaufnahme mit TALEA. Ihre Anfrage ist eingegangen."
+    }
+  },
+  "smartForm": {
+    "eyebrow": "Kontakt",
+    "back": "Zurück zu den Kontaktoptionen",
+    "stepOf": "Schritt {current} von {total}",
+    "complete": "Abgeschlossen",
+    "steps": ["Allgemein", "Unternehmen", "Leistungen", "Details", "Kommerziell", "Überprüfung"],
+    "nav": { "back": "Zurück", "continue": "Weiter", "submit": "Anfrage absenden", "saveDraft": "Entwurf speichern", "saved": "Gespeichert" },
+    "removeLabel": "Entfernen",
+    "typeLabel": "Typ",
+    "step0": {
+      "eyebrow": "01 · Allgemeine Angaben",
+      "heading": "Mit wem sprechen wir?",
+      "intro": "Beginnen Sie mit den wichtigsten Angaben. Weitere Kontaktdaten und Adressen sind optional und können jederzeit ergänzt werden.",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "jobTitle": "Position",
+      "jobTitlePlaceholder": "z. B. Inhaber, Einkäufer, Operations Manager",
+      "company": "Unternehmen / Organisation",
+      "companyPlaceholder": "Firmenname",
+      "emails": {
+        "heading": "E-Mail-Adressen",
+        "description": "Fügen Sie eine weitere E-Mail für eine Kollegin, die Buchhaltung, den Einkauf oder einen anderen nützlichen Kontakt hinzu.",
+        "add": "E-Mail hinzufügen",
+        "types": ["Primär", "Geschäftlich", "Buchhaltung", "Einkauf"],
+        "other": "Sonstiges",
+        "otherPlaceholder": "Bitte den E-Mail-Typ angeben",
+        "valueLabel": "E-Mail",
+        "valuePlaceholder": "name@unternehmen.de"
+      },
+      "phones": {
+        "heading": "Telefonnummern",
+        "description": "Eine Nummer reicht zum Start. Ergänzen Sie bei Bedarf WhatsApp, Büro, Einkauf oder einen anderen Kontakt.",
+        "add": "Telefonnummer hinzufügen",
+        "types": ["Primär", "WhatsApp", "Büro", "Einkauf"],
+        "other": "Sonstiges",
+        "otherPlaceholder": "Bitte den Telefontyp angeben",
+        "valueLabel": "Telefon",
+        "valuePlaceholder": "+49 …"
+      },
+      "addresses": {
+        "heading": "Adressen",
+        "description": "Sie können eine weitere Adresse hinzufügen, z. B. Lieferadresse, Lager, Rechnungsadresse oder Niederlassung. Das kann auch später erfolgen.",
+        "add": "Adresse hinzufügen",
+        "types": ["Geschäftlich", "Lieferung", "Rechnung", "Lager"],
+        "other": "Sonstiges",
+        "otherPlaceholder": "Bitte den Adresstyp angeben",
+        "valueLabel": "Adresse",
+        "valuePlaceholder": "Straße, Ort, Postleitzahl, Land"
+      }
+    },
+    "step1": {
+      "eyebrow": "02 · Marke & Unternehmen",
+      "heading": "Erzählen Sie uns von Ihrem Unternehmen.",
+      "intro": "Das hilft TALEA, den geschäftlichen Kontext zu verstehen und bessere Fragen zu Sourcing, QC, Einkauf, Lagerhaltung und Versand zu stellen.",
+      "brandName": { "label": "Marken- / Shopname", "placeholder": "Marken- oder Shopname" },
+      "website": { "label": "Website / Shop-URL", "placeholder": "https://" },
+      "businessType": {
+        "label": "Unternehmensart",
+        "placeholder": "Eine Option wählen",
+        "other": "Sonstiges",
+        "otherPlaceholder": "Bitte die Unternehmensart angeben",
+        "options": ["Markeninhaber", "Einzelhändler / Shop", "Großhändler / Distributor", "E-Commerce-Verkäufer", "Hersteller", "Dienstleistungsunternehmen"]
+      },
+      "mainMarket": {
+        "label": "Hauptmarkt",
+        "placeholder": "Region auswählen",
+        "options": ["Europa", "Naher Osten", "Nordamerika", "Afrika", "Asien-Pazifik", "Mehrere Regionen"]
+      },
+      "industry": {
+        "heading": "Geschäftsbereich",
+        "description": "Wählen Sie die passendste Kategorie. Wir nutzen diese Angabe, um nur die relevantesten Folgefragen zu zeigen.",
+        "otherLabel": "Bitte geben Sie Ihren Geschäftsbereich an",
+        "otherPlaceholder": "z. B. Spielzeug, Autoteile, Lebensmittelverpackungen",
+        "options": [
+          { "key": "fashion", "icon": "FA", "label": "Mode & Bekleidung", "description": "Kleidung, Schuhe, Taschen, Accessoires und Textilprodukte." },
+          { "key": "electronics", "icon": "EL", "label": "Elektronik", "description": "Unterhaltungselektronik, Zubehör, Komponenten und Geräte." },
+          { "key": "home", "icon": "HF", "label": "Haus & Möbel", "description": "Möbel, Beleuchtung, Dekoration, Haushalts- und Lifestyle-Artikel." },
+          { "key": "beauty", "icon": "BP", "label": "Beauty & Pflege", "description": "Kosmetik, Verpackung, Beauty-Tools und Körperpflege." },
+          { "key": "machinery", "icon": "MI", "label": "Industrie", "description": "Maschinen, Werkzeuge, Produktionsanlagen und technische Artikel." },
+          { "key": "other", "icon": "+", "label": "Sonstiges", "description": "Nennen Sie uns die Kategorie im nächsten Schritt, und wir passen uns entsprechend an." }
+        ]
+      }
+    },
+    "step2": {
+      "eyebrow": "03 · Benötigte Leistungen",
+      "heading": "Wobei benötigen Sie Unterstützung?",
+      "intro": "Wählen Sie alles Zutreffende aus. Ihr nächster Schritt passt sich automatisch an, sodass wir nur zu den ausgewählten Leistungen fragen.",
+      "allService": { "icon": "A–Z", "label": "A–Z / Komplettservice", "description": "Wählen Sie den kompletten Ablauf. Damit werden automatisch alle Leistungen unten ausgewählt." },
+      "options": [
+        { "key": "sourcing", "icon": "01", "label": "Sourcing", "description": "Lieferanten, Produkte, Fabriken, Alternativen und Angebote finden." },
+        { "key": "verification", "icon": "02", "label": "Lieferantenprüfung", "description": "Einen Lieferanten, eine Fabrik, ein Unternehmen oder Produkt vor der Beauftragung prüfen." },
+        { "key": "purchasing", "icon": "03", "label": "Einkauf & Zahlung", "description": "Auftragsabwicklung, Lieferantenzahlung und kaufmännische Koordination." },
+        { "key": "qc", "icon": "04", "label": "Qualitätskontrolle", "description": "Menge, Qualität, Verpackung, sichtbare Mängel und Spezifikationen prüfen." },
+        { "key": "warehousing", "icon": "05", "label": "Lagerhaltung", "description": "Waren in China empfangen, lagern, organisieren, konsolidieren oder vorbereiten." },
+        { "key": "shipping", "icon": "06", "label": "Versand / Lieferung", "description": "Luft-, See- oder Bahntransport von China zum Zielort." }
+      ],
+      "note": "Sie müssen die genaue Leistungskombination nicht kennen. Wählen Sie aus, was relevant erscheint — TALEA passt den Umfang nach Prüfung Ihrer Anfrage an."
+    },
+    "step3": {
+      "eyebrow": "04 · Angepasste Fragen",
+      "heading": "Ein paar Details zur Anfrage.",
+      "intro": "Diese Seite basiert auf Ihren vorherigen Angaben. So bleibt die Anfrage kurz und erfasst zugleich die Details mit dem höchsten operativen Nutzen.",
+      "industryBlocks": {
+        "fashion": {
+          "heading": "Mode & Bekleidung",
+          "intro": "In dieser Phase zählen nur Kategorie und Produktreife.",
+          "categoriesLabel": "Welche Kategorien sind betroffen?",
+          "categories": ["Kleidung", "Schuhe", "Taschen", "Accessoires", "Textilien"],
+          "segment": { "label": "Zielsegment", "placeholder": "Auswählen", "options": ["Damen", "Herren", "Kinder", "Unisex", "Gemischt"] },
+          "status": {
+            "label": "Produktstatus",
+            "placeholder": "Auswählen",
+            "options": [
+              "Ich habe bereits konkrete Produkte / Lieferanten",
+              "Ich habe Referenzen, benötige aber Sourcing",
+              "Ich habe nur das Konzept / die Spezifikation"
+            ]
+          }
+        },
+        "electronics": {
+          "heading": "Elektronik",
+          "intro": "Wir müssen vor allem wissen, ob das Produkt Standard oder individuell ist und ob Konformität relevant ist.",
+          "type": { "label": "Produktart", "placeholder": "z. B. Zubehör, Gerät, Komponente" },
+          "certification": { "label": "Konformität / Zertifizierung", "placeholder": "z. B. CE, FCC, RoHS — falls bekannt" }
+        },
+        "home": {
+          "heading": "Haus & Möbel",
+          "intro": "Bei großen Artikeln spielen vor allem Maße, Materialien und Sendungsvolumen eine Rolle.",
+          "type": { "label": "Produktgruppe", "placeholder": "z. B. Möbel, Beleuchtung, Dekoration" },
+          "dimensions": { "label": "Ungefähre Maße des größten Artikels", "placeholder": "Falls relevant" }
+        },
+        "beauty": {
+          "heading": "Beauty & Körperpflege",
+          "intro": "Teilen Sie uns mit, ob es um Fertigprodukte, Private Label oder nur Verpackung geht.",
+          "typeLabel": "Art der Anfrage",
+          "types": ["Fertigprodukte", "Private Label", "Nur Verpackung"]
+        },
+        "machinery": {
+          "heading": "Maschinen & Industrie",
+          "intro": "Technische Anforderungen sind hier wichtiger als Marketingkategorien.",
+          "type": { "label": "Gerät / Komponente", "placeholder": "Um welchen Artikel geht es?" },
+          "spec": { "label": "Technische Spezifikation vorhanden?", "placeholder": "Auswählen", "options": ["Ja, vollständig", "Teilweise", "Nein, Unterstützung bei der Definition benötigt"] }
+        }
+      },
+      "serviceBlocks": {
+        "sourcing": {
+          "heading": "Sourcing",
+          "intro": "Wir benötigen nur genug Informationen, um das Zielprodukt und den kommerziellen Rahmen zu verstehen.",
+          "product": { "label": "Was soll gesourct werden?", "placeholder": "Produkt oder Produktfamilie" },
+          "qty": { "label": "Ungefähre Menge", "placeholder": "z. B. 500 Stück, 2.000 Einheiten" },
+          "targetPrice": { "label": "Zielpreis pro Einheit / Budget", "placeholder": "Optional" },
+          "reference": { "label": "Referenzlink / SKU", "placeholder": "Optional" }
+        },
+        "verification": {
+          "heading": "Lieferantenprüfung",
+          "intro": "Falls Sie den Lieferanten bereits kennen, geben Sie uns einen Namen oder Link. Detaillierte Dokumente können später folgen.",
+          "name": { "label": "Lieferanten- / Fabrikname", "placeholder": "Falls bekannt" },
+          "link": { "label": "Website- / Marktplatzlink", "placeholder": "Alibaba, 1688, Website usw." }
+        },
+        "purchasing": {
+          "heading": "Einkauf & Zahlung",
+          "intro": "Wir benötigen einen ungefähren Auftragswert und die Information, ob Lieferantenkonditionen bereits vereinbart sind.",
+          "orderValue": { "label": "Ungefährer Auftragswert", "placeholder": "z. B. 15.000 USD" },
+          "termsAgreed": { "label": "Konditionen vereinbart?", "placeholder": "Auswählen", "options": ["Ja", "Teilweise", "Nein"] }
+        },
+        "qc": {
+          "heading": "Qualitätskontrolle",
+          "intro": "Teilen Sie uns mit, wann die Ware fertig sein wird und was am wichtigsten ist.",
+          "goodsReady": { "label": "Ware fertig ungefähr" },
+          "priority": {
+            "label": "Wichtigste QC-Priorität",
+            "placeholder": "Auswählen",
+            "options": ["Allgemeine Sichtprüfung", "Menge", "Maße / Spezifikationen", "Verpackung", "Funktion / Betrieb", "Nicht sicher"]
+          }
+        },
+        "warehousing": {
+          "heading": "Lagerhaltung",
+          "intro": "Wir müssen vor allem wissen, warum die Ware im Lager bleiben soll.",
+          "purposeLabel": "Zweck der Lagerung",
+          "purposes": ["Konsolidierung", "Kurzfristige Lagerung", "Inspektion / Umverpackung", "Fulfilment"]
+        },
+        "shipping": {
+          "heading": "Versand / Lieferung",
+          "intro": "Der Zielort hat in dieser Phase den größten Einfluss. Frachtmaße können später bestätigt werden.",
+          "destination": { "label": "Lieferziel", "placeholder": "Stadt, Postleitzahl, Land" },
+          "transport": { "label": "Bevorzugter Transport", "placeholder": "Nicht sicher / Empfehlung", "options": ["Seefracht", "Luftfracht", "Bahnfracht", "Kurier / Express"] },
+          "cargoSize": { "label": "Ungefähre Frachtgröße / -gewicht", "placeholder": "Optional, falls bekannt" }
+        }
+      },
+      "attachments": {
+        "heading": "Dateien & Medien",
+        "description": "Laden Sie Produktfotos, Spezifikationen, Angebote, Lieferantendokumente, Zeichnungen, Tabellen oder andere nützliche Unterlagen hoch.",
+        "title": "Bilder oder Dateien hinzufügen",
+        "copy": "Bis zu 10 Dateien · je 10 MB · insgesamt 30 MB. Bilder, PDF, Word, Excel, CSV und TXT.",
+        "action": "Dateien auswählen",
+        "errorTooMany": "Bitte wählen Sie höchstens 10 Dateien aus.",
+        "errorOversizedOne": "1 Datei ist größer als 10 MB.",
+        "errorOversizedMany": "{count} Dateien sind größer als 10 MB.",
+        "errorTotalTooLarge": "Der gesamte Upload ist größer als 30 MB."
+      }
+    },
+    "step4": {
+      "eyebrow": "05 · Kommerzielle Eignung",
+      "heading": "Worauf sollen wir optimieren?",
+      "intro": "Ein paar kommerzielle Signale helfen uns, das richtige Serviceniveau zu priorisieren und unnötige operative Fragen zu vermeiden.",
+      "orderSize": {
+        "label": "Typische Bestellgröße",
+        "placeholder": "Bereich auswählen",
+        "options": ["Unter 2.500 USD", "2.500–10.000 USD", "10.000–50.000 USD", "50.000–250.000 USD", "Über 250.000 USD", "Stark unterschiedlich"]
+      },
+      "frequency": {
+        "label": "Bestellhäufigkeit",
+        "placeholder": "Auswählen",
+        "options": ["Einmaliges Projekt", "Einige Male pro Jahr", "Monatlich", "Wöchentlich / laufend", "Noch nicht entschieden"]
+      },
+      "timeline": {
+        "label": "Wann möchten Sie starten?",
+        "placeholder": "Auswählen",
+        "options": ["Sofort", "Innerhalb von 2 Wochen", "Innerhalb eines Monats", "1–3 Monate", "In der Recherche- / Planungsphase"]
+      },
+      "priority": {
+        "label": "Wichtigste Priorität",
+        "placeholder": "Auswählen",
+        "options": ["Preis", "Qualität", "Geschwindigkeit", "Zuverlässigkeit", "Flexibilität", "Ausgewogen"]
+      },
+      "notes": {
+        "label": "Gibt es sonst noch etwas Wichtiges, das wir wissen sollten?",
+        "placeholder": "Besondere Produktanforderungen, aktuelle Probleme mit Lieferanten, Zieltermine, bevorzugte Arbeitsweise oder alles andere, was uns hilft, die Anfrage zu verstehen."
+      }
+    },
+    "step5": {
+      "eyebrow": "06 · Überprüfung",
+      "heading": "Überprüfen Sie Ihre Anfrage.",
+      "intro": "Dies sind die Informationen, die TALEA erhalten würde. Sie können zurückgehen und vor dem Absenden alles ändern.",
+      "note": "Das Absenden dieses Prototyps sendet keine Daten. Verbinden Sie in der Produktivumgebung den finalen Handler mit Ihrem CRM, einer API-Route oder einem Lead-Management-System.",
+      "cards": {
+        "contact": { "title": "Kontakt", "name": "Name", "company": "Unternehmen", "email": "E-Mail", "phone": "Telefon", "address": "Adresse" },
+        "business": { "title": "Unternehmen", "brand": "Marke / Shop", "businessType": "Unternehmensart", "industry": "Branche", "mainMarket": "Hauptmarkt", "website": "Website" },
+        "need": { "title": "Bedarf", "services": "Leistungen", "product": "Produkt / Sourcing", "supplier": "Lieferant", "destination": "Lieferziel", "warehouse": "Zweck der Lagerung", "fashionCategory": "Modekategorie", "files": "Dateien" },
+        "commercial": { "title": "Kommerzielle Eignung", "orderSize": "Typische Bestellgröße", "frequency": "Bestellhäufigkeit", "timeline": "Startzeitpunkt", "priority": "Wichtigste Priorität", "notes": "Notizen" }
+      },
+      "empty": "—",
+      "fullService": "A–Z / Komplettservice",
+      "otherPrefix": "Sonstiges — "
+    },
+    "step6": {
+      "heading": "Ihre Anfrage ist bereit.",
+      "body": "Das adaptive Formular hat das zentrale Lead-Profil, den Leistungsbedarf, branchenspezifischen Kontext und die kommerzielle Eignung erfasst, ohne den Kunden durch irrelevante Fragen zu führen."
+    }
+  }
+}

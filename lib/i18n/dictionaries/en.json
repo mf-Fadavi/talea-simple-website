@@ -7,6 +7,7 @@
     "services": "Services",
     "who": "Who we are",
     "process": "How it begins",
+    "tools": "Tools",
     "contact": "Contact",
     "menu": "Menu"
   },
@@ -153,6 +154,46 @@
     "copyright": "© {year} Talea. All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms of service"
+  },
+  "tools": {
+    "eyebrow": "Free tools",
+    "heading": "Tools to make sourcing easier",
+    "subtitle": "Practical calculators and utilities we are building for sourcing teams. More are on the way.",
+    "back": "Back to home",
+    "badge": "Coming soon",
+    "cta": "Notify me when it's ready",
+    "items": [
+      {
+        "icon": "cbm",
+        "title": "CBM Calculator",
+        "description": "Work out cargo volume and container fit from carton dimensions and quantity before you book freight."
+      },
+      {
+        "icon": "rfq",
+        "title": "RFQ Creator",
+        "description": "Turn a product spec into a structured request for quotation you can send to multiple factories in minutes."
+      },
+      {
+        "icon": "radar",
+        "title": "Product Radar",
+        "description": "Track trending products and price benchmarks across categories to spot sourcing opportunities early."
+      },
+      {
+        "icon": "cost",
+        "title": "Landed Cost Estimator",
+        "description": "Add freight, duties and fees on top of factory price to see your true landed cost per unit."
+      },
+      {
+        "icon": "verify",
+        "title": "Supplier Verifier",
+        "description": "Check a factory's business licence, export history and risk signals before you commit to an order."
+      },
+      {
+        "icon": "hs",
+        "title": "HS Code Finder",
+        "description": "Look up the right HS code for your product to estimate duties and avoid customs delays."
+      }
+    ]
   },
   "contactHub": {
     "eyebrow": "Get in touch",
