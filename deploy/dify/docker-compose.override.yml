@@ -1,0 +1,12 @@
+# Copy this file into dify/docker/ (next to Dify's docker-compose.yaml).
+# It rebinds Dify's nginx from the public EXPOSE_NGINX_PORT to loopback-only
+# port 8180. Binding to 127.0.0.1 matters: Docker's published ports bypass
+# ufw, so a plain "8180:80" would be reachable from the internet even with
+# the firewall enabled.
+#
+# The `!override` tag needs Docker Compose v2.24+ (check: docker compose version).
+
+services:
+  nginx:
+    ports: !override
+      - "127.0.0.1:8180:80"

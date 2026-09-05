@@ -1,0 +1,11 @@
+# Copy this file next to PostHog's docker-compose.yml (the directory the
+# deploy-hobby script created, usually ~/posthog). It rebinds PostHog's
+# bundled proxy from 0.0.0.0:80/443 to loopback-only port 8010, so the
+# shared front Caddy can own 80/443 and terminate TLS for all services.
+#
+# The `!override` tag needs Docker Compose v2.24+ (check: docker compose version).
+
+services:
+  proxy:
+    ports: !override
+      - "127.0.0.1:8010:80"

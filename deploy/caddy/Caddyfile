@@ -1,0 +1,14 @@
+# Front proxy for the whole VPS. Caddy obtains and renews Let's Encrypt
+# certificates automatically for every hostname listed here, and sets
+# X-Forwarded-For / X-Forwarded-Proto on proxied requests by default.
+#
+# Replace example.com with your real domain (must match the DNS A records
+# and the values in PostHog's and Dify's .env files).
+
+analytics.example.com {
+	reverse_proxy host.docker.internal:8010
+}
+
+chat.example.com {
+	reverse_proxy host.docker.internal:8180
+}
