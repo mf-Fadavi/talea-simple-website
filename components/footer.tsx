@@ -2,6 +2,16 @@ import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 import { TaleaLogo } from "@/components/talea-logo";
+import { serviceSlugs } from "@/lib/services";
+
+// dict.footer.services is index-aligned with the service page slugs.
+const FOOTER_SERVICE_SLUGS = [
+  serviceSlugs[0], // product sourcing
+  serviceSlugs[3], // quality control
+  serviceSlugs[1], // procurement
+  serviceSlugs[1], // freight & clearance (covered on the procurement page)
+  serviceSlugs[4], // warehousing
+];
 
 const SOCIAL_ICONS = {
   linkedin: (
@@ -44,14 +54,14 @@ export function Footer({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             <span className="text-xs font-bold tracking-widest text-gray-500 uppercase">
               {dict.footer.servicesHeading}
             </span>
-            {dict.footer.services.map((label) => (
-              <a
+            {dict.footer.services.map((label, i) => (
+              <Link
                 key={label}
-                href="#services"
+                href={`/${locale}/services/${FOOTER_SERVICE_SLUGS[i]}`}
                 className="text-sm text-gray-200 transition-colors hover:text-white"
               >
                 {label}
-              </a>
+              </Link>
             ))}
           </div>
 

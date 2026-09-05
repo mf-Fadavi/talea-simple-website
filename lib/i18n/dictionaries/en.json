@@ -8,6 +8,7 @@
     "who": "Who we are",
     "process": "How it begins",
     "tools": "Tools",
+    "faq": "FAQ",
     "contact": "Contact",
     "menu": "Menu"
   },
@@ -133,6 +134,242 @@
           "Release on your schedule"
         ],
         "cta": "Ask about warehousing"
+      }
+    ]
+  },
+  "faq": {
+    "metaTitle": "FAQ — Sourcing from China",
+    "metaDescription": "Direct answers about sourcing from China: shipping times, quality inspections, supplier verification, MOQs, payment protection, warehousing and how to start with Talea.",
+    "eyebrow": "FAQ",
+    "heading": "Frequently asked questions",
+    "subtitle": "Direct answers about sourcing, quality control, shipping and warehousing out of China.",
+    "back": "Back to home",
+    "items": [
+      {
+        "q": "What does Talea do?",
+        "a": "Talea is a China sourcing partner. We handle product sourcing, supplier verification, purchasing, quality control, warehousing and freight out of China as one accountable team, with offices in Shanghai and sourcing staff and inspectors across Guangdong, Zhejiang and Fujian. We ship more than 800 containers per year to over 10 countries."
+      },
+      {
+        "q": "How does sourcing from China with Talea work?",
+        "a": "In seven steps: you describe the product and market; we turn it into a technical brief a factory can quote; we shortlist and audit factories on the ground; we negotiate price, terms and samples in writing; we follow production with in-line and pre-shipment inspection; we book sea, rail or air freight with customs cleared at both ends; and your goods arrive at your warehouse or stay in ours."
+      },
+      {
+        "q": "How long does shipping from China take?",
+        "a": "Typical door-to-door times from China to Europe are 30–45 days by sea, 18–25 days by rail, 5–10 days by air freight and 3–7 days by express courier. Exact times depend on the route, customs and the season — we confirm a realistic schedule when we book."
+      },
+      {
+        "q": "Should I ship by sea, rail or air?",
+        "a": "Sea freight is the cheapest and best for full containers and non-urgent stock. Rail from China to Europe costs more than sea but roughly halves the transit time. Air freight suits urgent, light or high-value goods, and express courier suits samples and small parcels. We recommend the mode per shipment based on weight, volume, value and deadline."
+      },
+      {
+        "q": "Can you check a Chinese supplier before I pay?",
+        "a": "Yes. Supplier verification covers the business licence, export history, factory audit on site and risk signals, so you know who you are dealing with before money moves. If you already have a supplier, we can act as your team on the ground without replacing them."
+      },
+      {
+        "q": "What is a pre-shipment inspection?",
+        "a": "A pre-shipment inspection checks a statistically valid sample of your finished goods against your checklist — quantity, workmanship, measurements, packaging and function — before the shipment leaves the factory, using AQL sampling standards. You receive a photo-documented report within 24 hours, while there is still time to fix problems."
+      },
+      {
+        "q": "What are typical minimum order quantities (MOQs) in China?",
+        "a": "MOQs vary by product and factory: often 500–1,000 pieces for consumer goods, more for custom or private-label products, less for standard items held in stock. Part of our sourcing work is finding factories whose MOQ matches your order size, or negotiating a lower first order."
+      },
+      {
+        "q": "How is my payment protected?",
+        "a": "Price, terms, samples and payment protection are agreed in a written contract before anything is made. Goods are inspected before final payment is released, so you pay for what you approved — not for what the factory promises."
+      },
+      {
+        "q": "Can I combine goods from several suppliers into one shipment?",
+        "a": "Yes. We receive goods from multiple suppliers into our warehouse in China, check and consolidate them into one shipment, and release it when your market needs it rather than when each factory happens to finish. This usually cuts freight cost per unit significantly."
+      },
+      {
+        "q": "Which countries do you ship to?",
+        "a": "We export from China to more than 10 countries across Europe, the Middle East, North America, Africa and Asia-Pacific, by sea, rail and air, with customs clearance handled at both ends."
+      },
+      {
+        "q": "What does working with Talea cost?",
+        "a": "Pricing depends on the services you use — sourcing, inspection, warehousing and freight are quoted separately or as one end-to-end package. Tell us what you want to buy and where it should go, and you get a concrete quote with real factory prices, not estimates. There is no obligation, and we reply within one working day."
+      },
+      {
+        "q": "How do I start?",
+        "a": "Send a quick message or use the guided request form on the contact page. Describe the product you want to sell and your target market; we come back within one working day with sources, real prices and a plan to get it to your warehouse."
+      }
+    ]
+  },
+  "servicePages": {
+    "back": "Back to home",
+    "learnMore": "Learn more about this service",
+    "includedHeading": "What's included",
+    "faqHeading": "Frequently asked questions",
+    "items": [
+      {
+        "metaTitle": "Product sourcing from China",
+        "metaDescription": "Talea finds, audits and negotiates with Chinese factories for you: technical brief, verified shortlist, managed samples and written terms — from idea to first container.",
+        "title": "Product sourcing from China",
+        "lead": "We turn your product idea into a factory-ready brief, find and audit matching manufacturers in China, and manage samples, negotiation and contracts until your first container is on the way. You get comparable real quotes from verified factories instead of marketplace promises.",
+        "sections": [
+          {
+            "heading": "How do you find the right factory?",
+            "body": "We start from your specification, not from a search box. Our sourcing staff in Guangdong, Zhejiang and Fujian shortlist candidate factories, visit them in person, audit production capability and export history, and bring you a comparison of verified options with real prices and lead times."
+          },
+          {
+            "heading": "What if I only have an idea, not a specification?",
+            "body": "That is the normal starting point. We help you narrow the idea down to specs, materials, packaging and a target landed price — a brief a factory can actually quote. Only then does supplier search begin, so quotes are comparable and honest."
+          },
+          {
+            "heading": "How are samples and negotiation handled?",
+            "body": "We manage sample rounds end to end, compare them against the brief, and negotiate price, payment terms and tooling in writing before any order is placed. Nothing goes into production that you have not approved."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How long does sourcing a new product take?",
+            "a": "Typically 2–6 weeks from brief to comparable quotes, plus sample rounds. Complex or custom products take longer; standard products can move faster."
+          },
+          {
+            "q": "Do you work with small first orders?",
+            "a": "Yes. Part of the sourcing work is matching you with factories whose minimum order quantity fits your order size, or negotiating a smaller trial order."
+          },
+          {
+            "q": "Do I know which factory makes my product?",
+            "a": "Yes — full transparency. You see the audited factories, their quotes and the contract. We are your team, not a reseller hiding the source."
+          }
+        ]
+      },
+      {
+        "metaTitle": "Procurement & your team on the ground in China",
+        "metaDescription": "Keep your existing Chinese supplier — Talea handles production follow-up, inspection before payment, export documents, consolidation and freight from China.",
+        "title": "Your team on the ground in China",
+        "lead": "You keep the supplier you trust; we handle everything that is hard from a distance. On-site production follow-up, inspection before money moves, purchasing coordination, export documents, consolidation and freight — one accountable team in China working for you, not for the factory.",
+        "sections": [
+          {
+            "heading": "What does production follow-up mean in practice?",
+            "body": "We visit the factory during production, check progress against the agreed schedule and specification, and report with photos. Problems surface while they can still be fixed — not at the port, and not in your warehouse."
+          },
+          {
+            "heading": "Can you handle purchasing and payments to my supplier?",
+            "body": "Yes. We execute orders, coordinate commercial terms and pay suppliers on your behalf, with goods inspected before final payment is released. You get one clean commercial interface instead of chasing a factory across time zones."
+          },
+          {
+            "heading": "What about export documents and customs?",
+            "body": "We prepare and sign off every export document, book sea, rail or air freight with insurance and tracking, and clear customs at both ends. Delivered to your warehouse — or held in ours until you need it."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Will you replace my existing supplier relationship?",
+            "a": "No. We work alongside the factory you chose. Our job is follow-up, inspection, paperwork and logistics — the parts that need someone physically in China."
+          },
+          {
+            "q": "Can you step in on a problem order?",
+            "a": "Yes. A common starting point is an order that has gone quiet or gone wrong; we go to the factory, assess the real status and negotiate a fix on site."
+          },
+          {
+            "q": "Do you work with orders of any size?",
+            "a": "From single consolidated pallets to full container programs of hundreds of containers per year. The workflow scales with you."
+          }
+        ]
+      },
+      {
+        "metaTitle": "Private label & OEM manufacturing in China",
+        "metaDescription": "Build your own brand with Talea: OEM factory matching, packaging and artwork management, compliance marks and documentation, suppliers kept separate from your customers.",
+        "title": "Private label, from packaging to pallet",
+        "lead": "We match your product specification to Chinese factories that can hold it consistently, manage artwork, packaging and compliance marks, and keep your suppliers strictly separated from your customers. You build the brand; we build the supply chain behind it.",
+        "sections": [
+          {
+            "heading": "How do you choose an OEM factory for a brand product?",
+            "body": "Brand products fail on consistency, not on the first sample. We audit for the process controls that keep unit 10,000 identical to unit 1 — materials handling, QC records, tooling maintenance — before we let a factory quote on your specification."
+          },
+          {
+            "heading": "Who handles packaging, artwork and compliance marks?",
+            "body": "We do. Artwork files are checked and proofed with the printer, packaging is specified and inspected like the product itself, and required compliance marks and market documentation (for example CE for Europe) are managed as part of the order."
+          },
+          {
+            "heading": "How is my brand protected?",
+            "body": "Suppliers never see your customers and customers never see your suppliers. Contracts include confidentiality, tooling and design ownership stays with you, and we can split production across factories so no single supplier holds your whole product."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "What MOQ should I expect for private label?",
+            "a": "Custom products carry higher minimums than stock items — often 1,000+ units depending on tooling and printing. We negotiate trial runs where the factory allows it."
+          },
+          {
+            "q": "Can you source the packaging separately from the product?",
+            "a": "Yes. Packaging is often produced by a different factory and consolidated in our warehouse before final packing."
+          },
+          {
+            "q": "Do you help with product compliance for my market?",
+            "a": "We manage the compliance marks and documentation your market requires and work with accredited testing labs where certificates are needed."
+          }
+        ]
+      },
+      {
+        "metaTitle": "Quality control & inspection in China",
+        "metaDescription": "Talea inspectors work to your checklist in the factory: in-line and pre-shipment inspection with AQL sampling and a photo-documented report within 24 hours.",
+        "title": "Eyes in the factory before you pay",
+        "lead": "Our inspectors check your goods inside the factory — during production and before shipment — against your checklist, using AQL sampling standards. You get a photo-documented report within 24 hours, while there is still time to fix problems and before final payment is released.",
+        "sections": [
+          {
+            "heading": "What is the difference between in-line and pre-shipment inspection?",
+            "body": "In-line inspection happens during production, when defects can still be corrected cheaply at the source. Pre-shipment inspection checks finished, packed goods against a statistically valid AQL sample just before loading — the last gate before your money and your reputation ship with the container."
+          },
+          {
+            "heading": "What exactly do inspectors check?",
+            "body": "Whatever your checklist defines: quantity, workmanship, measurements against specification, materials, packaging, labelling, barcodes and function tests. We help you write the checklist so it reflects what your customers actually complain about."
+          },
+          {
+            "heading": "What happens when an inspection fails?",
+            "body": "You decide with full information: rework, sorting, discount or rejection. Because inspection happens before final payment, the leverage is yours — the factory fixes the problem to get paid, not as a favour."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "How fast do I get the inspection report?",
+            "a": "A photo-documented report within 24 hours of the inspection, covering every checklist point with pass/fail results and evidence."
+          },
+          {
+            "q": "Can you inspect at a factory you didn't source?",
+            "a": "Yes. Inspection is available as a standalone service at any factory in China — many clients start with a single inspection."
+          },
+          {
+            "q": "What sampling standard do you use?",
+            "a": "AQL (ISO 2859-1) with acceptance levels agreed with you per product — the same standard large retailers impose on their suppliers."
+          }
+        ]
+      },
+      {
+        "metaTitle": "Warehousing & consolidation in China",
+        "metaDescription": "Store goods in Talea's China warehouse, consolidate orders from several suppliers into one shipment, and release stock on your schedule instead of the factory's.",
+        "title": "Store, consolidate and release on your schedule",
+        "lead": "We receive goods from your suppliers into our warehouse in China, check and store them, consolidate orders from several factories into one shipment, and release stock when your market needs it — not when each factory happens to finish. One consolidated container is usually far cheaper per unit than several small shipments.",
+        "sections": [
+          {
+            "heading": "Why consolidate shipments in China?",
+            "body": "Freight is priced by container and by shipment, not by fairness. Combining goods from three suppliers into one container removes two sets of minimum charges, customs entries and delivery runs — and lets slower suppliers catch up without delaying paid freight."
+          },
+          {
+            "heading": "What happens to goods in your warehouse?",
+            "body": "Goods are received against the order, counted, visually checked and stored with photos on record. On request we relabel, repack, kit or prepare fulfilment-ready cartons before shipping."
+          },
+          {
+            "heading": "How long can I store goods?",
+            "body": "Short-term consolidation storage is often free or near-free within the shipping cycle; long-term storage is available at agreed monthly rates. You release shipments on your schedule — before your season, not after it."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Can you receive goods I bought directly from a factory?",
+            "a": "Yes. Give your supplier our warehouse address; we receive, check and photograph the goods and report what actually arrived."
+          },
+          {
+            "q": "Do you support e-commerce fulfilment preparation?",
+            "a": "Yes — labelling, polybagging, carton specs and packing lists prepared to marketplace requirements before the goods ship."
+          },
+          {
+            "q": "Where is the warehouse located?",
+            "a": "Our warehousing operates out of the Shanghai region, positioned for both sea and rail departures to Europe and beyond."
+          }
+        ]
       }
     ]
   },

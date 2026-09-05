@@ -8,6 +8,7 @@
     "who": "Über uns",
     "process": "So beginnt es",
     "tools": "Tools",
+    "faq": "FAQ",
     "contact": "Kontakt",
     "menu": "Menü"
   },
@@ -133,6 +134,242 @@
           "Freigabe nach Ihrem Zeitplan"
         ],
         "cta": "Nach Lagerhaltung fragen"
+      }
+    ]
+  },
+  "faq": {
+    "metaTitle": "FAQ — Beschaffung aus China",
+    "metaDescription": "Direkte Antworten zur Beschaffung aus China: Versandzeiten, Qualitätskontrollen, Lieferantenprüfung, Mindestbestellmengen, Zahlungssicherheit, Lagerung und der Start mit Talea.",
+    "eyebrow": "FAQ",
+    "heading": "Häufig gestellte Fragen",
+    "subtitle": "Direkte Antworten zu Sourcing, Qualitätskontrolle, Versand und Lagerung aus China.",
+    "back": "Zurück zur Startseite",
+    "items": [
+      {
+        "q": "Was macht Talea?",
+        "a": "Talea ist Ihr Beschaffungspartner in China. Wir übernehmen Produktbeschaffung, Lieferantenprüfung, Einkauf, Qualitätskontrolle, Lagerung und Fracht aus China als ein verantwortliches Team — mit Büro in Shanghai und Sourcing-Mitarbeitern und Inspektoren in Guangdong, Zhejiang und Fujian. Wir verschiffen über 800 Container pro Jahr in mehr als 10 Länder."
+      },
+      {
+        "q": "Wie läuft die Beschaffung aus China mit Talea ab?",
+        "a": "In sieben Schritten: Sie beschreiben Produkt und Markt; wir erstellen ein technisches Briefing, das eine Fabrik kalkulieren kann; wir erstellen eine Shortlist und auditieren Fabriken vor Ort; wir verhandeln Preis, Konditionen und Muster schriftlich; wir begleiten die Produktion mit Inspektionen während der Fertigung und vor dem Versand; wir buchen See-, Bahn- oder Luftfracht mit Zollabwicklung an beiden Enden; und Ihre Ware kommt in Ihrem Lager an — oder bleibt in unserem."
+      },
+      {
+        "q": "Wie lange dauert der Versand aus China?",
+        "a": "Typische Tür-zu-Tür-Zeiten von China nach Europa: 30–45 Tage per Seefracht, 18–25 Tage per Bahn, 5–10 Tage per Luftfracht und 3–7 Tage per Expresskurier. Die genaue Dauer hängt von Route, Zoll und Saison ab — bei der Buchung bestätigen wir einen realistischen Zeitplan."
+      },
+      {
+        "q": "See, Bahn oder Luft — was soll ich wählen?",
+        "a": "Seefracht ist am günstigsten und ideal für volle Container und nicht eilige Ware. Die Bahn von China nach Europa kostet mehr als See, halbiert aber ungefähr die Laufzeit. Luftfracht eignet sich für eilige, leichte oder hochwertige Ware, Expresskurier für Muster und kleine Sendungen. Wir empfehlen den Transportweg pro Sendung nach Gewicht, Volumen, Wert und Termin."
+      },
+      {
+        "q": "Können Sie einen chinesischen Lieferanten prüfen, bevor ich zahle?",
+        "a": "Ja. Die Lieferantenprüfung umfasst Gewerbelizenz, Exporthistorie, Fabrikaudit vor Ort und Risikosignale — Sie wissen, mit wem Sie es zu tun haben, bevor Geld fließt. Wenn Sie bereits einen Lieferanten haben, arbeiten wir als Ihr Team vor Ort, ohne ihn zu ersetzen."
+      },
+      {
+        "q": "Was ist eine Pre-Shipment-Inspektion?",
+        "a": "Eine Pre-Shipment-Inspektion prüft eine statistisch gültige Stichprobe Ihrer fertigen Ware gegen Ihre Checkliste — Menge, Verarbeitung, Maße, Verpackung und Funktion — bevor die Sendung die Fabrik verlässt, nach AQL-Standard. Sie erhalten innerhalb von 24 Stunden einen fotodokumentierten Bericht, solange noch Zeit bleibt, Probleme zu beheben."
+      },
+      {
+        "q": "Welche Mindestbestellmengen (MOQs) sind in China üblich?",
+        "a": "MOQs variieren je nach Produkt und Fabrik: oft 500–1.000 Stück bei Konsumgütern, mehr bei Sonderanfertigungen und Private Label, weniger bei Standardware ab Lager. Teil unserer Arbeit ist es, Fabriken zu finden, deren MOQ zu Ihrer Bestellmenge passt — oder eine kleinere Erstbestellung zu verhandeln."
+      },
+      {
+        "q": "Wie ist meine Zahlung abgesichert?",
+        "a": "Preis, Konditionen, Muster und Zahlungsschutz werden vor Produktionsbeginn schriftlich vereinbart. Die Ware wird geprüft, bevor die Schlusszahlung freigegeben wird — Sie zahlen für das, was Sie freigegeben haben, nicht für das, was die Fabrik verspricht."
+      },
+      {
+        "q": "Kann ich Ware von mehreren Lieferanten in einer Sendung bündeln?",
+        "a": "Ja. Wir nehmen Ware mehrerer Lieferanten in unserem Lager in China an, prüfen und konsolidieren sie zu einer Sendung und versenden, wenn Ihr Markt es braucht — nicht, wenn die einzelne Fabrik gerade fertig wird. Das senkt die Frachtkosten pro Einheit meist deutlich."
+      },
+      {
+        "q": "In welche Länder liefern Sie?",
+        "a": "Wir exportieren aus China in mehr als 10 Länder in Europa, dem Nahen Osten, Nordamerika, Afrika und Asien-Pazifik — per See, Bahn und Luft, mit Zollabwicklung an beiden Enden."
+      },
+      {
+        "q": "Was kostet die Zusammenarbeit mit Talea?",
+        "a": "Der Preis hängt von den genutzten Leistungen ab — Sourcing, Inspektion, Lagerung und Fracht werden einzeln oder als Komplettpaket angeboten. Sagen Sie uns, was Sie einkaufen wollen und wohin es gehen soll, und Sie erhalten ein konkretes Angebot mit echten Fabrikpreisen. Unverbindlich, Antwort innerhalb eines Werktags."
+      },
+      {
+        "q": "Wie starte ich?",
+        "a": "Senden Sie eine kurze Nachricht oder nutzen Sie das geführte Anfrageformular auf der Kontaktseite. Beschreiben Sie Produkt und Zielmarkt; wir melden uns innerhalb eines Werktags mit Bezugsquellen, echten Preisen und einem Plan bis in Ihr Lager."
+      }
+    ]
+  },
+  "servicePages": {
+    "back": "Zurück zur Startseite",
+    "learnMore": "Mehr über diese Leistung",
+    "includedHeading": "Das ist enthalten",
+    "faqHeading": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "metaTitle": "Produktbeschaffung aus China",
+        "metaDescription": "Talea findet, auditiert und verhandelt mit chinesischen Fabriken für Sie: technisches Briefing, geprüfte Shortlist, betreute Muster und schriftliche Konditionen — von der Idee bis zum ersten Container.",
+        "title": "Produktbeschaffung aus China",
+        "lead": "Wir machen aus Ihrer Produktidee ein fabrikreifes Briefing, finden und auditieren passende Hersteller in China und betreuen Muster, Verhandlung und Verträge, bis Ihr erster Container unterwegs ist. Sie erhalten vergleichbare, echte Angebote geprüfter Fabriken statt Marktplatz-Versprechen.",
+        "sections": [
+          {
+            "heading": "Wie finden Sie die richtige Fabrik?",
+            "body": "Wir starten bei Ihrer Spezifikation, nicht bei einer Suchmaske. Unsere Sourcing-Mitarbeiter in Guangdong, Zhejiang und Fujian erstellen eine Shortlist, besuchen die Fabriken persönlich, auditieren Produktionsfähigkeit und Exporthistorie und legen Ihnen einen Vergleich geprüfter Optionen mit echten Preisen und Lieferzeiten vor."
+          },
+          {
+            "heading": "Was, wenn ich nur eine Idee habe und keine Spezifikation?",
+            "body": "Das ist der normale Ausgangspunkt. Wir helfen Ihnen, die Idee auf Spezifikationen, Materialien, Verpackung und einen Ziel-Landed-Price einzugrenzen — ein Briefing, das eine Fabrik wirklich kalkulieren kann. Erst dann beginnt die Lieferantensuche, damit Angebote vergleichbar und ehrlich sind."
+          },
+          {
+            "heading": "Wie laufen Muster und Verhandlung ab?",
+            "body": "Wir betreuen Musterrunden von Anfang bis Ende, prüfen sie gegen das Briefing und verhandeln Preis, Zahlungsbedingungen und Werkzeuge schriftlich, bevor eine Bestellung platziert wird. Nichts geht in Produktion, was Sie nicht freigegeben haben."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Wie lange dauert das Sourcing eines neuen Produkts?",
+            "a": "Typischerweise 2–6 Wochen vom Briefing bis zu vergleichbaren Angeboten, plus Musterrunden. Komplexe oder Sonderprodukte dauern länger, Standardprodukte gehen schneller."
+          },
+          {
+            "q": "Arbeiten Sie auch mit kleinen Erstbestellungen?",
+            "a": "Ja. Teil der Sourcing-Arbeit ist es, Fabriken zu finden, deren Mindestbestellmenge zu Ihrer Größe passt — oder eine kleinere Testbestellung zu verhandeln."
+          },
+          {
+            "q": "Weiß ich, welche Fabrik mein Produkt fertigt?",
+            "a": "Ja — volle Transparenz. Sie sehen die auditierten Fabriken, deren Angebote und den Vertrag. Wir sind Ihr Team, kein Zwischenhändler, der die Quelle versteckt."
+          }
+        ]
+      },
+      {
+        "metaTitle": "Einkauf & Ihr Team vor Ort in China",
+        "metaDescription": "Behalten Sie Ihren chinesischen Lieferanten — Talea übernimmt Produktionsbegleitung, Inspektion vor Zahlung, Exportdokumente, Konsolidierung und Fracht aus China.",
+        "title": "Ihr Team vor Ort in China",
+        "lead": "Sie behalten den Lieferanten, dem Sie vertrauen; wir übernehmen alles, was aus der Ferne schwer ist. Produktionsbegleitung vor Ort, Inspektion bevor Geld fließt, Einkaufskoordination, Exportdokumente, Konsolidierung und Fracht — ein verantwortliches Team in China, das für Sie arbeitet, nicht für die Fabrik.",
+        "sections": [
+          {
+            "heading": "Was bedeutet Produktionsbegleitung konkret?",
+            "body": "Wir besuchen die Fabrik während der Produktion, prüfen den Fortschritt gegen Zeitplan und Spezifikation und berichten mit Fotos. Probleme werden sichtbar, solange sie sich noch beheben lassen — nicht am Hafen und nicht in Ihrem Lager."
+          },
+          {
+            "heading": "Können Sie Einkauf und Zahlungen an meinen Lieferanten abwickeln?",
+            "body": "Ja. Wir führen Bestellungen aus, koordinieren die kommerziellen Konditionen und bezahlen Lieferanten in Ihrem Auftrag — die Ware wird geprüft, bevor die Schlusszahlung freigegeben wird. Sie haben eine saubere kommerzielle Schnittstelle, statt einer Fabrik über Zeitzonen hinterherzulaufen."
+          },
+          {
+            "heading": "Und Exportdokumente und Zoll?",
+            "body": "Wir erstellen und prüfen jedes Exportdokument, buchen See-, Bahn- oder Luftfracht mit Versicherung und Tracking und übernehmen die Zollabwicklung an beiden Enden. Geliefert bis in Ihr Lager — oder gelagert in unserem, bis Sie die Ware brauchen."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Ersetzen Sie meine bestehende Lieferantenbeziehung?",
+            "a": "Nein. Wir arbeiten neben der Fabrik, die Sie gewählt haben. Unsere Aufgabe sind Begleitung, Inspektion, Papiere und Logistik — die Teile, für die jemand physisch in China sein muss."
+          },
+          {
+            "q": "Können Sie bei einem Problemauftrag einspringen?",
+            "a": "Ja. Ein häufiger Einstieg ist ein Auftrag, der stockt oder schiefläuft; wir fahren in die Fabrik, klären den tatsächlichen Stand und verhandeln die Lösung vor Ort."
+          },
+          {
+            "q": "Arbeiten Sie mit Aufträgen jeder Größe?",
+            "a": "Von der einzelnen konsolidierten Palette bis zu Containerprogrammen mit Hunderten Containern pro Jahr. Der Ablauf skaliert mit Ihnen."
+          }
+        ]
+      },
+      {
+        "metaTitle": "Private Label & OEM-Fertigung in China",
+        "metaDescription": "Bauen Sie Ihre eigene Marke mit Talea: OEM-Fabrikauswahl, Verpackungs- und Artwork-Management, Konformitätszeichen und Dokumentation, Lieferanten strikt getrennt von Ihren Kunden.",
+        "title": "Private Label — von der Verpackung bis zur Palette",
+        "lead": "Wir finden chinesische Fabriken, die Ihre Produktspezifikation dauerhaft konstant halten können, managen Artwork, Verpackung und Konformitätszeichen und halten Ihre Lieferanten strikt von Ihren Kunden getrennt. Sie bauen die Marke auf; wir bauen die Lieferkette dahinter.",
+        "sections": [
+          {
+            "heading": "Wie wählen Sie eine OEM-Fabrik für ein Markenprodukt aus?",
+            "body": "Markenprodukte scheitern an Konstanz, nicht am ersten Muster. Wir auditieren die Prozesskontrollen, die Stück 10.000 identisch zu Stück 1 halten — Materialhandling, QC-Aufzeichnungen, Werkzeugpflege — bevor eine Fabrik auf Ihre Spezifikation anbieten darf."
+          },
+          {
+            "heading": "Wer kümmert sich um Verpackung, Artwork und Konformitätszeichen?",
+            "body": "Wir. Artwork-Dateien werden mit der Druckerei geprüft und abgestimmt, Verpackung wird wie das Produkt selbst spezifiziert und inspiziert, und erforderliche Konformitätszeichen und Marktdokumentation (zum Beispiel CE für Europa) werden als Teil des Auftrags gemanagt."
+          },
+          {
+            "heading": "Wie wird meine Marke geschützt?",
+            "body": "Lieferanten sehen nie Ihre Kunden, und Kunden sehen nie Ihre Lieferanten. Verträge enthalten Vertraulichkeit, Werkzeuge und Design bleiben Ihr Eigentum, und auf Wunsch verteilen wir die Produktion auf mehrere Fabriken, damit kein einzelner Lieferant Ihr ganzes Produkt kennt."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Welche MOQ muss ich bei Private Label erwarten?",
+            "a": "Sonderanfertigungen haben höhere Mindestmengen als Lagerware — oft 1.000+ Einheiten, abhängig von Werkzeugen und Druck. Wo die Fabrik es zulässt, verhandeln wir Testläufe."
+          },
+          {
+            "q": "Können Sie die Verpackung getrennt vom Produkt beschaffen?",
+            "a": "Ja. Verpackung kommt oft aus einer anderen Fabrik und wird vor dem finalen Packen in unserem Lager konsolidiert."
+          },
+          {
+            "q": "Helfen Sie bei der Produktkonformität für meinen Markt?",
+            "a": "Wir managen die für Ihren Markt erforderlichen Zeichen und Dokumente und arbeiten mit akkreditierten Prüflaboren, wo Zertifikate nötig sind."
+          }
+        ]
+      },
+      {
+        "metaTitle": "Qualitätskontrolle & Inspektion in China",
+        "metaDescription": "Talea-Inspektoren arbeiten in der Fabrik nach Ihrer Checkliste: Inspektion während der Fertigung und vor dem Versand nach AQL-Standard, fotodokumentierter Bericht innerhalb von 24 Stunden.",
+        "title": "Augen in der Fabrik, bevor Sie zahlen",
+        "lead": "Unsere Inspektoren prüfen Ihre Ware in der Fabrik — während der Produktion und vor dem Versand — gegen Ihre Checkliste, nach AQL-Standard. Sie erhalten innerhalb von 24 Stunden einen fotodokumentierten Bericht, solange noch Zeit bleibt, Probleme zu beheben — und bevor die Schlusszahlung freigegeben wird.",
+        "sections": [
+          {
+            "heading": "Was ist der Unterschied zwischen In-Line- und Pre-Shipment-Inspektion?",
+            "body": "Die In-Line-Inspektion findet während der Produktion statt, wenn Fehler noch günstig an der Quelle korrigiert werden können. Die Pre-Shipment-Inspektion prüft fertige, verpackte Ware anhand einer statistisch gültigen AQL-Stichprobe kurz vor der Verladung — das letzte Tor, bevor Ihr Geld und Ihr Ruf mit dem Container reisen."
+          },
+          {
+            "heading": "Was genau prüfen die Inspektoren?",
+            "body": "Was Ihre Checkliste definiert: Menge, Verarbeitung, Maße gegen die Spezifikation, Materialien, Verpackung, Etikettierung, Barcodes und Funktionstests. Wir helfen beim Erstellen der Checkliste, damit sie abbildet, worüber sich Ihre Kunden tatsächlich beschweren."
+          },
+          {
+            "heading": "Was passiert, wenn eine Inspektion fehlschlägt?",
+            "body": "Sie entscheiden mit vollständiger Information: Nacharbeit, Sortierung, Preisnachlass oder Ablehnung. Weil die Inspektion vor der Schlusszahlung stattfindet, liegt der Hebel bei Ihnen — die Fabrik behebt das Problem, um bezahlt zu werden, nicht aus Gefälligkeit."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Wie schnell erhalte ich den Inspektionsbericht?",
+            "a": "Einen fotodokumentierten Bericht innerhalb von 24 Stunden nach der Inspektion — jeder Checklistenpunkt mit Ergebnis und Beleg."
+          },
+          {
+            "q": "Inspizieren Sie auch in Fabriken, die Sie nicht beschafft haben?",
+            "a": "Ja. Die Inspektion ist als eigenständige Leistung in jeder Fabrik in China verfügbar — viele Kunden starten mit einer einzelnen Inspektion."
+          },
+          {
+            "q": "Nach welchem Stichprobenstandard arbeiten Sie?",
+            "a": "AQL (ISO 2859-1) mit pro Produkt vereinbarten Annahmegrenzen — derselbe Standard, den große Handelsketten ihren Lieferanten vorgeben."
+          }
+        ]
+      },
+      {
+        "metaTitle": "Lagerung & Konsolidierung in China",
+        "metaDescription": "Lagern Sie Ware in Taleas Lager in China, bündeln Sie Bestellungen mehrerer Lieferanten zu einer Sendung und versenden Sie nach Ihrem Zeitplan statt dem der Fabrik.",
+        "title": "Lagern, konsolidieren und nach Ihrem Zeitplan versenden",
+        "lead": "Wir nehmen Ware Ihrer Lieferanten in unserem Lager in China an, prüfen und lagern sie, bündeln Bestellungen mehrerer Fabriken zu einer Sendung und versenden, wenn Ihr Markt es braucht — nicht, wenn die einzelne Fabrik gerade fertig wird. Ein konsolidierter Container ist pro Einheit meist deutlich günstiger als mehrere Kleinsendungen.",
+        "sections": [
+          {
+            "heading": "Warum Sendungen in China konsolidieren?",
+            "body": "Fracht wird pro Container und pro Sendung berechnet, nicht nach Fairness. Ware von drei Lieferanten in einem Container spart zwei Sätze Mindestgebühren, Zollanmeldungen und Zustellfahrten — und langsamere Lieferanten können aufholen, ohne bezahlte Fracht zu verzögern."
+          },
+          {
+            "heading": "Was passiert mit der Ware in Ihrem Lager?",
+            "body": "Die Ware wird gegen die Bestellung angenommen, gezählt, visuell geprüft und mit Fotodokumentation eingelagert. Auf Wunsch etikettieren wir um, verpacken neu, stellen Sets zusammen oder bereiten versandfertige Kartons vor."
+          },
+          {
+            "heading": "Wie lange kann ich Ware lagern?",
+            "body": "Kurzfristige Konsolidierungslagerung ist innerhalb des Versandzyklus oft kostenlos oder fast kostenlos; Langzeitlagerung gibt es zu vereinbarten Monatssätzen. Sie geben Sendungen nach Ihrem Zeitplan frei — vor Ihrer Saison, nicht danach."
+          }
+        ],
+        "faqs": [
+          {
+            "q": "Nehmen Sie auch Ware an, die ich direkt bei einer Fabrik gekauft habe?",
+            "a": "Ja. Geben Sie Ihrem Lieferanten unsere Lageradresse; wir nehmen die Ware an, prüfen und fotografieren sie und berichten, was tatsächlich angekommen ist."
+          },
+          {
+            "q": "Unterstützen Sie E-Commerce-Fulfilment-Vorbereitung?",
+            "a": "Ja — Etikettierung, Polybeutel, Kartonvorgaben und Packlisten nach Marktplatzanforderungen, bevor die Ware verschifft wird."
+          },
+          {
+            "q": "Wo befindet sich das Lager?",
+            "a": "Unsere Lagerung läuft über die Region Shanghai — günstig gelegen für See- und Bahnabfahrten nach Europa und darüber hinaus."
+          }
+        ]
       }
     ]
   },

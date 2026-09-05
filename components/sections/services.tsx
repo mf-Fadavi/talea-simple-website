@@ -5,13 +5,14 @@ import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 import { ArrowForwardIcon, CheckCircleIcon } from "@/components/icons";
+import { serviceSlugs } from "@/lib/services";
 
 export function Services({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   const [active, setActive] = useState(0);
   const scenario = dict.services.scenarios[active];
 
   return (
-    <section id="services" className="py-14 md:py-24">
+    <section id="services" className="py-20 md:py-36">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-7 grid max-w-2xl gap-3.5 md:mb-11">
           <p className="text-xs font-bold tracking-widest text-brand uppercase">
@@ -23,7 +24,7 @@ export function Services({ dict, locale }: { dict: Dictionary; locale: Locale })
           <p className="text-base text-gray-600">{dict.services.subtitle}</p>
         </div>
 
-        <div className="grid gap-6 rounded-[22px] border border-black/[0.07] bg-white/80 p-4 shadow-[0_24px_60px_rgba(21,21,21,0.10)] backdrop-blur md:grid-cols-[1fr_1px_2fr] md:gap-8 md:p-8">
+        <div className="grid min-h-0 gap-6 rounded-[22px] border border-black/[0.07] bg-white/80 p-4 shadow-[0_24px_60px_rgba(21,21,21,0.10)] backdrop-blur md:grid-cols-[1fr_1px_2fr] md:gap-8 md:px-12 md:py-6 md:min-h-115">
           <div role="tablist" aria-orientation="vertical" className="grid gap-1 content-start">
             {dict.services.scenarios.map((s, i) => {
               const isActive = i === active;
@@ -63,13 +64,21 @@ export function Services({ dict, locale }: { dict: Dictionary; locale: Locale })
                 </li>
               ))}
             </ul>
-            <Link
-              href={`/${locale}/contact`}
-              className="mt-1 inline-flex min-h-12 w-fit items-center gap-2.5 rounded-xl bg-brand px-5 text-sm font-semibold text-white transition-colors hover:bg-brand-hover"
-            >
-              {scenario.cta}
-              <ArrowForwardIcon />
-            </Link>
+            <div className="mt-1 flex flex-wrap items-center gap-5">
+              <Link
+                href={`/${locale}/contact`}
+                className="inline-flex min-h-12 w-fit items-center gap-2.5 rounded-xl bg-brand px-5 text-sm font-semibold text-white transition-colors hover:bg-brand-hover"
+              >
+                {scenario.cta}
+                <ArrowForwardIcon />
+              </Link>
+              <Link
+                href={`/${locale}/services/${serviceSlugs[active]}`}
+                className="text-sm font-semibold text-brand transition-colors hover:text-brand-hover"
+              >
+                {dict.servicePages.learnMore}
+              </Link>
+            </div>
           </div>
         </div>
       </div>
