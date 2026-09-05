@@ -1,7 +1,21 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 import { ArrowForwardIcon } from "@/components/icons";
+import { localeAlternates } from "@/lib/site";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[lang]/contact">): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+  return {
+    title: dict.contactHub.heading,
+    description: dict.contactHub.subtitle,
+    alternates: localeAlternates(lang as Locale, "contact"),
+  };
+}
 
 const ROUTES = ["quick", "smart"] as const;
 

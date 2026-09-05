@@ -5,6 +5,10 @@ import { locales, localeDirections, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { PostHogAnalytics } from "@/components/integrations/posthog-analytics";
+import { DifyChat } from "@/components/integrations/dify-chat";
+import { JsonLd, organizationSchema } from "@/components/structured-data";
+import { localeAlternates, siteName, siteUrl } from "@/lib/site";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,10 +30,29 @@ export async function generateMetadata({
   params,
 }: LayoutProps<"/[lang]">): Promise<Metadata> {
   const { lang } = await params;
-  const dict = await getDictionary(lang as Locale);
+  const locale = lang as Locale;
+  const dict = await getDictionary(locale);
   return {
-    title: dict.meta.title,
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: dict.meta.title,
+      template: `%s — ${siteName}`,
+    },
     description: dict.meta.description,
+    alternates: localeAlternates(locale, ""),
+    openGraph: {
+      type: "website",
+      siteName,
+      title: dict.meta.title,
+      description: dict.meta.description,
+      locale,
+      images: [{ url: "/images/containers.png" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.meta.title,
+      description: dict.meta.description,
+    },
   };
 }
 
@@ -50,9 +73,12 @@ export default async function LocaleLayout({
       className={`${inter.variable} ${vazirmatn.variable} h-full`}
     >
       <body className="flex min-h-full flex-col text-ink antialiased">
+        <JsonLd data={organizationSchema()} />
         <Header dict={dict} locale={locale} />
         <main className="flex-1">{children}</main>
         <Footer dict={dict} locale={locale} />
+        <PostHogAnalytics />
+        <DifyChat />
       </body>
     </html>
   );

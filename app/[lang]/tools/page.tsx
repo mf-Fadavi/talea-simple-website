@@ -1,7 +1,21 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/config";
 import { ArrowForwardIcon } from "@/components/icons";
+import { localeAlternates } from "@/lib/site";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[lang]/tools">): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+  return {
+    title: dict.tools.heading,
+    description: dict.tools.subtitle,
+    alternates: localeAlternates(lang as Locale, "tools"),
+  };
+}
 
 const TOOL_ICONS: Record<string, React.ReactNode> = {
   cbm: (
