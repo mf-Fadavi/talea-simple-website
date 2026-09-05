@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { useEffect, useRef, useSyncExternalStore } from "react";
 
-const VH_PER_STEP = 68;
+const VH_PER_STEP = 18;
 
 const STEP_ICONS: LucideIcon[] = [
   Lightbulb,
@@ -32,7 +32,7 @@ function StepIcon({ index, className }: { index: number; className?: string }) {
 
 function StepsTimeline({ dict, className }: { dict: Dictionary; className?: string }) {
   return (
-    <div className={`grid content-start gap-3.5 ${className ?? ""}`}>
+    <div className={`grid content-start gap-2.5 ${className ?? ""}`}>
       <p className="text-xs font-bold tracking-widest text-brand uppercase">
         {dict.process.eyebrow}
       </p>
@@ -43,20 +43,16 @@ function StepsTimeline({ dict, className }: { dict: Dictionary; className?: stri
         {dict.process.subtitleNarrow}
       </p>
 
-      <ol className="relative mt-4 grid gap-8">
-        <div aria-hidden="true" className="absolute top-1 bottom-1 start-6 w-px bg-gray-150" />
+      <ol className="mt-2 grid gap-1.5">
         {dict.process.steps.map((step, i) => (
-          <li key={step.title} className="relative grid grid-cols-[48px_1fr] items-start gap-5">
-            <div className="relative z-10 grid h-12 w-12 place-items-center rounded-2xl border border-gray-200 bg-white text-brand">
-              <StepIcon index={i} />
-            </div>
-            <div className="grid gap-1.5 pt-0.5">
-              <span className="text-[11px] font-bold tracking-widest text-brand">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <h3 className="text-lg font-semibold tracking-tight">{step.title}</h3>
-              <p className="text-[15px] leading-relaxed text-gray-600 text-pretty">{step.body}</p>
-            </div>
+          <li
+            key={step.title}
+            className="flex items-center gap-3 rounded-xl border border-gray-150 bg-white px-3 py-2"
+          >
+            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg bg-brand-soft text-[11px] font-bold text-brand">
+              {i + 1}
+            </span>
+            <h3 className="text-sm font-semibold tracking-tight text-pretty">{step.title}</h3>
           </li>
         ))}
       </ol>
@@ -161,7 +157,7 @@ function StepsWheel({ dict }: { dict: Dictionary }) {
 
           <div
             aria-hidden="true"
-            className="flex align-middle relative h-[min(60vh,440px)] w-px justify-self-center bg-gray-150"
+            className="flex align-middle relative h-[min(58vh,430px)] w-px justify-self-center bg-gray-150"
           >
             <div ref={fillRef} className="absolute top-0 h-0 w-px bg-brand" />
             <div className="absolute inset-y-0 left-1/2 flex -translate-x-1/2 flex-col items-center justify-between">
@@ -177,7 +173,7 @@ function StepsWheel({ dict }: { dict: Dictionary }) {
             </div>
           </div>
 
-          <div className="relative min-h-[min(64vh,460px)] [perspective:1400px] [perspective-origin:50%_50%] [transform-style:preserve-3d]">
+          <div className="relative min-h-[min(62vh,460px)] [perspective:1400px] [perspective-origin:50%_50%] [transform-style:preserve-3d]">
             {steps.map((step, i) => (
               <div
                 key={step.title}
@@ -226,7 +222,7 @@ export function ProcessSteps({ dict }: { dict: Dictionary }) {
   );
 
   return (
-    <section id="process" className="py-14 md:py-24">
+    <section id="process" className="py-16 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         {reducedMotion ? (
           <div className="grid gap-12 md:grid-cols-[minmax(240px,1fr)_2fr] md:gap-16">

@@ -9,9 +9,9 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   return (
     <section
       id="top"
-      className="relative overflow-hidden border-b border-gray-150 bg-gradient-to-b from-white to-gray-50 pt-12 pb-14 md:pt-16 md:pb-20"
+      className="relative overflow-hidden border-b border-gray-150 bg-gradient-to-b from-white to-gray-50 pt-14 pb-16 md:flex md:min-h-[calc(100vh-76px)] md:items-center md:py-20"
     >
-      <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
+      <div className="mx-auto grid w-full max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center">
         <div className="grid gap-6">
           <h1 className="text-5xl leading-[0.95] font-extrabold tracking-tight text-balance md:text-7xl">
             {dict.hero.titleLine1}
@@ -48,13 +48,13 @@ export function Hero({ dict, locale }: { dict: Dictionary; locale: Locale }) {
             </span>
           </div>
         </div>
-        <div className="flex min-h-[300px] items-center justify-center md:min-h-[420px]">
+        <div className="flex min-h-[300px] items-center justify-center md:min-h-[480px]">
           <Image
             src={taleaMark}
             alt="Talea"
             width={520}
             height={520}
-            className="w-full max-w-md"
+            className="w-full max-w-md md:max-w-lg"
             priority
           />
         </div>

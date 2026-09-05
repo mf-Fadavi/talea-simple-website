@@ -10,7 +10,7 @@ export function Cta({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   return (
     <section
       id="cta"
-      className="relative overflow-hidden bg-brand py-16 text-white md:py-28"
+      className="relative overflow-hidden bg-brand py-16 text-white md:py-32"
     >
       <Image
         src={wTrain}

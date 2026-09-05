@@ -11,7 +11,7 @@ export function Testimonial({ dict }: { dict: Dictionary }) {
     .slice(0, 2);
 
   return (
-    <section className="relative overflow-hidden border-b border-gray-150 bg-[#FFF6F5] py-14 md:py-20">
+    <section className="relative overflow-hidden border-b border-gray-150 bg-[#FFF6F5] py-16 md:py-28">
       <Image
         src={wWorld}
         alt=""
